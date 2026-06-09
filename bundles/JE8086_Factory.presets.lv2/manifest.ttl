@@ -1,0 +1,979 @@
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix pset:  <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<JE8086_BankA1>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A1" .
+
+<JE8086_BankA2>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A2" .
+
+<JE8086_BankA3>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A3" .
+
+<JE8086_BankA4>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A4" .
+
+<JE8086_BankA5>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A5" .
+
+<JE8086_BankA6>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A6" .
+
+<JE8086_BankA7>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A7" .
+
+<JE8086_BankA8>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal A8" .
+
+<JE8086_BankB1>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B1" .
+
+<JE8086_BankB2>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B2" .
+
+<JE8086_BankB3>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B3" .
+
+<JE8086_BankB4>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B4" .
+
+<JE8086_BankB5>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B5" .
+
+<JE8086_BankB6>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B6" .
+
+<JE8086_BankB7>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B7" .
+
+<JE8086_BankB8>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal B8" .
+
+<JE8086-000_A11.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Spit'n Slide Bs" ;
+	rdfs:seeAlso <JE8086-000_A11.ttl> .
+
+<JE8086-001_A12.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Velo Decay Bass" ;
+	rdfs:seeAlso <JE8086-001_A12.ttl> .
+
+<JE8086-002_A13.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Wall Bob" ;
+	rdfs:seeAlso <JE8086-002_A13.ttl> .
+
+<JE8086-003_A14.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Juno Sub Bass" ;
+	rdfs:seeAlso <JE8086-003_A14.ttl> .
+
+<JE8086-004_A15.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Subsonic Bass" ;
+	rdfs:seeAlso <JE8086-004_A15.ttl> .
+
+<JE8086-005_A16.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Big & Dark" ;
+	rdfs:seeAlso <JE8086-005_A16.ttl> .
+
+<JE8086-006_A17.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Bass Flow" ;
+	rdfs:seeAlso <JE8086-006_A17.ttl> .
+
+<JE8086-007_A18.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA1> ;
+	rdfs:label "Juno Bass Vel" ;
+	rdfs:seeAlso <JE8086-007_A18.ttl> .
+
+<JE8086-008_A21.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Dubb Bass" ;
+	rdfs:seeAlso <JE8086-008_A21.ttl> .
+
+<JE8086-009_A22.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Juice Bass" ;
+	rdfs:seeAlso <JE8086-009_A22.ttl> .
+
+<JE8086-010_A23.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Dreams Are Made" ;
+	rdfs:seeAlso <JE8086-010_A23.ttl> .
+
+<JE8086-011_A24.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Reso Bass Line" ;
+	rdfs:seeAlso <JE8086-011_A24.ttl> .
+
+<JE8086-012_A25.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Bass Pedals" ;
+	rdfs:seeAlso <JE8086-012_A25.ttl> .
+
+<JE8086-013_A26.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Hard Core Bass" ;
+	rdfs:seeAlso <JE8086-013_A26.ttl> .
+
+<JE8086-014_A27.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "MC-202 Bass" ;
+	rdfs:seeAlso <JE8086-014_A27.ttl> .
+
+<JE8086-015_A28.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA2> ;
+	rdfs:label "Rubber SH-2" ;
+	rdfs:seeAlso <JE8086-015_A28.ttl> .
+
+<JE8086-016_A31.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Raging Bass" ;
+	rdfs:seeAlso <JE8086-016_A31.ttl> .
+
+<JE8086-017_A32.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Blipper Bass" ;
+	rdfs:seeAlso <JE8086-017_A32.ttl> .
+
+<JE8086-018_A33.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "JP-303" ;
+	rdfs:seeAlso <JE8086-018_A33.ttl> .
+
+<JE8086-019_A34.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Rave Time" ;
+	rdfs:seeAlso <JE8086-019_A34.ttl> .
+
+<JE8086-020_A35.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Fretless Bass" ;
+	rdfs:seeAlso <JE8086-020_A35.ttl> .
+
+<JE8086-021_A36.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Digi Strat" ;
+	rdfs:seeAlso <JE8086-021_A36.ttl> .
+
+<JE8086-022_A37.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Fire Wire" ;
+	rdfs:seeAlso <JE8086-022_A37.ttl> .
+
+<JE8086-023_A38.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA3> ;
+	rdfs:label "Proflike Clavit" ;
+	rdfs:seeAlso <JE8086-023_A38.ttl> .
+
+<JE8086-024_A41.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Withmod Comp" ;
+	rdfs:seeAlso <JE8086-024_A41.ttl> .
+
+<JE8086-025_A42.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Juno Clav" ;
+	rdfs:seeAlso <JE8086-025_A42.ttl> .
+
+<JE8086-026_A43.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Gritty Power" ;
+	rdfs:seeAlso <JE8086-026_A43.ttl> .
+
+<JE8086-027_A44.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Separate ways" ;
+	rdfs:seeAlso <JE8086-027_A44.ttl> .
+
+<JE8086-028_A45.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "For RPS" ;
+	rdfs:seeAlso <JE8086-028_A45.ttl> .
+
+<JE8086-029_A46.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Bread'n Butter" ;
+	rdfs:seeAlso <JE8086-029_A46.ttl> .
+
+<JE8086-030_A47.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Silk 5ths" ;
+	rdfs:seeAlso <JE8086-030_A47.ttl> .
+
+<JE8086-031_A48.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA4> ;
+	rdfs:label "Ancient Asia" ;
+	rdfs:seeAlso <JE8086-031_A48.ttl> .
+
+<JE8086-032_A51.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Intervalic" ;
+	rdfs:seeAlso <JE8086-032_A51.ttl> .
+
+<JE8086-033_A52.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Squared Away" ;
+	rdfs:seeAlso <JE8086-033_A52.ttl> .
+
+<JE8086-034_A53.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Velo Syncoid" ;
+	rdfs:seeAlso <JE8086-034_A53.ttl> .
+
+<JE8086-035_A54.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Resonance Chord" ;
+	rdfs:seeAlso <JE8086-035_A54.ttl> .
+
+<JE8086-036_A55.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Resorelease" ;
+	rdfs:seeAlso <JE8086-036_A55.ttl> .
+
+<JE8086-037_A56.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Waspy Synth" ;
+	rdfs:seeAlso <JE8086-037_A56.ttl> .
+
+<JE8086-038_A57.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Euro SAW" ;
+	rdfs:seeAlso <JE8086-038_A57.ttl> .
+
+<JE8086-039_A58.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA5> ;
+	rdfs:label "Dance Sweep" ;
+	rdfs:seeAlso <JE8086-039_A58.ttl> .
+
+<JE8086-040_A61.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "Trance Food" ;
+	rdfs:seeAlso <JE8086-040_A61.ttl> .
+
+<JE8086-041_A62.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "One Shot Reso" ;
+	rdfs:seeAlso <JE8086-041_A62.ttl> .
+
+<JE8086-042_A63.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "The Fat Guy" ;
+	rdfs:seeAlso <JE8086-042_A63.ttl> .
+
+<JE8086-043_A64.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "Spit Brass" ;
+	rdfs:seeAlso <JE8086-043_A64.ttl> .
+
+<JE8086-044_A65.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "Poly Sync" ;
+	rdfs:seeAlso <JE8086-044_A65.ttl> .
+
+<JE8086-045_A66.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "Rave 5th" ;
+	rdfs:seeAlso <JE8086-045_A66.ttl> .
+
+<JE8086-046_A67.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "UK Shorty" ;
+	rdfs:seeAlso <JE8086-046_A67.ttl> .
+
+<JE8086-047_A68.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA6> ;
+	rdfs:label "Old Rhodes" ;
+	rdfs:seeAlso <JE8086-047_A68.ttl> .
+
+<JE8086-048_A71.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Wurly Piano 1" ;
+	rdfs:seeAlso <JE8086-048_A71.ttl> .
+
+<JE8086-049_A72.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Wurly Piano 2" ;
+	rdfs:seeAlso <JE8086-049_A72.ttl> .
+
+<JE8086-050_A73.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Moody Organ" ;
+	rdfs:seeAlso <JE8086-050_A73.ttl> .
+
+<JE8086-051_A74.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Org/Rotary>Ribon" ;
+	rdfs:seeAlso <JE8086-051_A74.ttl> .
+
+<JE8086-052_A75.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "VK09 PercEchoes" ;
+	rdfs:seeAlso <JE8086-052_A75.ttl> .
+
+<JE8086-053_A76.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Sine Lead" ;
+	rdfs:seeAlso <JE8086-053_A76.ttl> .
+
+<JE8086-054_A77.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Wichita Lead" ;
+	rdfs:seeAlso <JE8086-054_A77.ttl> .
+
+<JE8086-055_A78.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA7> ;
+	rdfs:label "Creamy" ;
+	rdfs:seeAlso <JE8086-055_A78.ttl> .
+
+<JE8086-056_A81.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Smoothy" ;
+	rdfs:seeAlso <JE8086-056_A81.ttl> .
+
+<JE8086-057_A82.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Soaring Mini" ;
+	rdfs:seeAlso <JE8086-057_A82.ttl> .
+
+<JE8086-058_A83.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Ribn F/B Lead" ;
+	rdfs:seeAlso <JE8086-058_A83.ttl> .
+
+<JE8086-059_A84.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Sup-Jup Lead" ;
+	rdfs:seeAlso <JE8086-059_A84.ttl> .
+
+<JE8086-060_A85.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Modular Lead" ;
+	rdfs:seeAlso <JE8086-060_A85.ttl> .
+
+<JE8086-061_A86.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Syncrosolo" ;
+	rdfs:seeAlso <JE8086-061_A86.ttl> .
+
+<JE8086-062_A87.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Ripper" ;
+	rdfs:seeAlso <JE8086-062_A87.ttl> .
+
+<JE8086-063_A88.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankA8> ;
+	rdfs:label "Phantom Lead" ;
+	rdfs:seeAlso <JE8086-063_A88.ttl> .
+
+<JE8086-064_B11.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Whammy Mammy" ;
+	rdfs:seeAlso <JE8086-064_B11.ttl> .
+
+<JE8086-065_B12.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Wicked Lead" ;
+	rdfs:seeAlso <JE8086-065_B12.ttl> .
+
+<JE8086-066_B13.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Drefull Dr." ;
+	rdfs:seeAlso <JE8086-066_B13.ttl> .
+
+<JE8086-067_B14.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Wiggle Mod" ;
+	rdfs:seeAlso <JE8086-067_B14.ttl> .
+
+<JE8086-068_B15.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Feedback Lead" ;
+	rdfs:seeAlso <JE8086-068_B15.ttl> .
+
+<JE8086-069_B16.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Crunch" ;
+	rdfs:seeAlso <JE8086-069_B16.ttl> .
+
+<JE8086-070_B17.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Chaos Lead" ;
+	rdfs:seeAlso <JE8086-070_B17.ttl> .
+
+<JE8086-071_B18.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB1> ;
+	rdfs:label "Out of Control" ;
+	rdfs:seeAlso <JE8086-071_B18.ttl> .
+
+<JE8086-072_B21.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "String Machine" ;
+	rdfs:seeAlso <JE8086-072_B21.ttl> .
+
+<JE8086-073_B22.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Tron Vlns" ;
+	rdfs:seeAlso <JE8086-073_B22.ttl> .
+
+<JE8086-074_B23.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Luxury Symph" ;
+	rdfs:seeAlso <JE8086-074_B23.ttl> .
+
+<JE8086-075_B24.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Debussy" ;
+	rdfs:seeAlso <JE8086-075_B24.ttl> .
+
+<JE8086-076_B25.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "BPF Velo Strings" ;
+	rdfs:seeAlso <JE8086-076_B25.ttl> .
+
+<JE8086-077_B26.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Detuned Str." ;
+	rdfs:seeAlso <JE8086-077_B26.ttl> .
+
+<JE8086-078_B27.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Juno B81 Pad" ;
+	rdfs:seeAlso <JE8086-078_B27.ttl> .
+
+<JE8086-079_B28.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB2> ;
+	rdfs:label "Richland" ;
+	rdfs:seeAlso <JE8086-079_B28.ttl> .
+
+<JE8086-080_B31.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "MOD Strings" ;
+	rdfs:seeAlso <JE8086-080_B31.ttl> .
+
+<JE8086-081_B32.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Jupiter Pad" ;
+	rdfs:seeAlso <JE8086-081_B32.ttl> .
+
+<JE8086-082_B33.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Soft Strings" ;
+	rdfs:seeAlso <JE8086-082_B33.ttl> .
+
+<JE8086-083_B34.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Shan-gri-la" ;
+	rdfs:seeAlso <JE8086-083_B34.ttl> .
+
+<JE8086-084_B35.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Fine Wine" ;
+	rdfs:seeAlso <JE8086-084_B35.ttl> .
+
+<JE8086-085_B36.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Glue Pad" ;
+	rdfs:seeAlso <JE8086-085_B36.ttl> .
+
+<JE8086-086_B37.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "True Pad" ;
+	rdfs:seeAlso <JE8086-086_B37.ttl> .
+
+<JE8086-087_B38.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB3> ;
+	rdfs:label "Foreboding" ;
+	rdfs:seeAlso <JE8086-087_B38.ttl> .
+
+<JE8086-088_B41.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "Skreachea" ;
+	rdfs:seeAlso <JE8086-088_B41.ttl> .
+
+<JE8086-089_B42.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "BPM Pulse 1" ;
+	rdfs:seeAlso <JE8086-089_B42.ttl> .
+
+<JE8086-090_B43.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "BPM Pulse 2" ;
+	rdfs:seeAlso <JE8086-090_B43.ttl> .
+
+<JE8086-091_B44.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "Hi-Pass Puls" ;
+	rdfs:seeAlso <JE8086-091_B44.ttl> .
+
+<JE8086-092_B45.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "Sample&Hold Me" ;
+	rdfs:seeAlso <JE8086-092_B45.ttl> .
+
+<JE8086-093_B46.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "MKS80 Space" ;
+	rdfs:seeAlso <JE8086-093_B46.ttl> .
+
+<JE8086-094_B47.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "Arctic Sweep" ;
+	rdfs:seeAlso <JE8086-094_B47.ttl> .
+
+<JE8086-095_B48.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB4> ;
+	rdfs:label "Replicant CS" ;
+	rdfs:seeAlso <JE8086-095_B48.ttl> .
+
+<JE8086-096_B51.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Stargate" ;
+	rdfs:seeAlso <JE8086-096_B51.ttl> .
+
+<JE8086-097_B52.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Lost in Time" ;
+	rdfs:seeAlso <JE8086-097_B52.ttl> .
+
+<JE8086-098_B53.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Circular" ;
+	rdfs:seeAlso <JE8086-098_B53.ttl> .
+
+<JE8086-099_B54.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Space Choir" ;
+	rdfs:seeAlso <JE8086-099_B54.ttl> .
+
+<JE8086-100_B55.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Hypass Sweep" ;
+	rdfs:seeAlso <JE8086-100_B55.ttl> .
+
+<JE8086-101_B56.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "BPF Tides" ;
+	rdfs:seeAlso <JE8086-101_B56.ttl> .
+
+<JE8086-102_B57.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "Matrix Sweep" ;
+	rdfs:seeAlso <JE8086-102_B57.ttl> .
+
+<JE8086-103_B58.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB5> ;
+	rdfs:label "MKS80 Bells" ;
+	rdfs:seeAlso <JE8086-103_B58.ttl> .
+
+<JE8086-104_B61.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Tiny bells" ;
+	rdfs:seeAlso <JE8086-104_B61.ttl> .
+
+<JE8086-105_B62.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Chimey" ;
+	rdfs:seeAlso <JE8086-105_B62.ttl> .
+
+<JE8086-106_B63.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Juno Arp" ;
+	rdfs:seeAlso <JE8086-106_B63.ttl> .
+
+<JE8086-107_B64.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Sonar Ping" ;
+	rdfs:seeAlso <JE8086-107_B64.ttl> .
+
+<JE8086-108_B65.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Air Harp" ;
+	rdfs:seeAlso <JE8086-108_B65.ttl> .
+
+<JE8086-109_B66.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Velo FX Percs" ;
+	rdfs:seeAlso <JE8086-109_B66.ttl> .
+
+<JE8086-110_B67.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Quizzled" ;
+	rdfs:seeAlso <JE8086-110_B67.ttl> .
+
+<JE8086-111_B68.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB6> ;
+	rdfs:label "Intermittent" ;
+	rdfs:seeAlso <JE8086-111_B68.ttl> .
+
+<JE8086-112_B71.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Brain Static" ;
+	rdfs:seeAlso <JE8086-112_B71.ttl> .
+
+<JE8086-113_B72.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Computone" ;
+	rdfs:seeAlso <JE8086-113_B72.ttl> .
+
+<JE8086-114_B73.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Pin Matrix" ;
+	rdfs:seeAlso <JE8086-114_B73.ttl> .
+
+<JE8086-115_B74.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Space Cheese" ;
+	rdfs:seeAlso <JE8086-115_B74.ttl> .
+
+<JE8086-116_B75.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Rough Day" ;
+	rdfs:seeAlso <JE8086-116_B75.ttl> .
+
+<JE8086-117_B76.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "The Etruscan." ;
+	rdfs:seeAlso <JE8086-117_B76.ttl> .
+
+<JE8086-118_B77.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Varese" ;
+	rdfs:seeAlso <JE8086-118_B77.ttl> .
+
+<JE8086-119_B78.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB7> ;
+	rdfs:label "Pipe Dream" ;
+	rdfs:seeAlso <JE8086-119_B78.ttl> .
+
+<JE8086-120_B81.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Meteor" ;
+	rdfs:seeAlso <JE8086-120_B81.ttl> .
+
+<JE8086-121_B82.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Snowman" ;
+	rdfs:seeAlso <JE8086-121_B82.ttl> .
+
+<JE8086-122_B83.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Space Ghost" ;
+	rdfs:seeAlso <JE8086-122_B83.ttl> .
+
+<JE8086-123_B84.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Ozone" ;
+	rdfs:seeAlso <JE8086-123_B84.ttl> .
+
+<JE8086-124_B85.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Cool-a little..." ;
+	rdfs:seeAlso <JE8086-124_B85.ttl> .
+
+<JE8086-125_B86.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Electro Gulls" ;
+	rdfs:seeAlso <JE8086-125_B86.ttl> .
+
+<JE8086-126_B87.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Template 1" ;
+	rdfs:seeAlso <JE8086-126_B87.ttl> .
+
+<JE8086-127_B88.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	pset:bank <JE8086_BankB8> ;
+	rdfs:label "Template 2" ;
+	rdfs:seeAlso <JE8086-127_B88.ttl> .

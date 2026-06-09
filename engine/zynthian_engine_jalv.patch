@@ -1,0 +1,84 @@
+diff --git a/zyngine/zynthian_engine_jalv.py b/zyngine/zynthian_engine_jalv.py
+index a698dc41..aa88832d 100644
+--- a/zyngine/zynthian_engine_jalv.py
++++ b/zyngine/zynthian_engine_jalv.py
+@@ -32,7 +32,7 @@ import logging
+ import traceback
+ from time import sleep
+ #from datetime import datetime
+-from threading import Thread
++from threading import Thread, Timer
+ from subprocess import Popen, check_output, STDOUT, PIPE
+ 
+ import zynautoconnect
+@@ -414,6 +414,8 @@ class zynthian_engine_jalv(zynthian_engine):
+ 
+     def proc_poll_parse_line(self, line):
+         #logging.debug(f"{self.jackname} PARSE => " + line)
++        if line.startswith("MIDI Out:"):
++            return
+         match line[0:5]:
+             case "#CTR>":
+                 self.proc_parse_ctrl_value(line[6:])
+@@ -498,6 +500,20 @@ class zynthian_engine_jalv(zynthian_engine):
+     def add_processor(self, processor):
+         self.set_midi_chan(processor)
+         super().add_processor(processor)
++        if self.plugin_name == "JE8086":
++            self._load_default_preset(processor, "init")
++
++    def _load_default_preset(self, processor, label):
++        try:
++            for bank_label, info in self.preset_info.items():
++                for p in info['presets']:
++                    if p.get('label', '').strip().lower() == label.lower():
++                        midi_info = p.get('midi_bank_select') or p.get('midi_pc')
++                        self.set_preset(processor, [p['url'], midi_info, p['label'], bank_label])
++                        return
++            logging.warning(f"{self.plugin_name}: default preset {label!r} not found")
++        except Exception as e:
++            logging.error(f"{self.plugin_name}: default preset load failed: {e}")
+ 
+     def get_name(self, processor=None):
+         return self.plugin_name
+@@ -612,7 +628,8 @@ class zynthian_engine_jalv(zynthian_engine):
+         try:
+             for info in self.preset_info[bank[2]]['presets']:
+                 title = info['label'].replace("_", " ").strip()
+-                preset_list.append([info['url'], None, title, bank[0]])
++                midi_info = info.get('midi_bank_select') or info.get('midi_pc')
++                preset_list.append([info['url'], midi_info, title, bank[0]])
+         except:
+             preset_list.append(("", None, "", None))
+ 
+@@ -622,8 +639,30 @@ class zynthian_engine_jalv(zynthian_engine):
+         if not preset[0]:
+             return
+         self.proc_cmd(f"preset {preset[0]}")
++        midi_info = preset[1]
++        if midi_info is not None:
++            chan = processor.get_midi_chan()
++            self._dispatch_firmware_midi(chan, midi_info)
++            # Re-dispatch after a delay so snapshot restore lands AFTER
++            # zynautoconnect wires the chain's MIDI and jalv is fully up.
++            Timer(1.5, self._dispatch_firmware_midi, args=(chan, midi_info)).start()
+         return True
+ 
++    def _dispatch_firmware_midi(self, chan, midi_info):
++        try:
++            lib_zyncore.ui_send_ccontrol_change(chan, 120, 0)
++            lib_zyncore.ui_send_ccontrol_change(chan, 123, 0)
++        except Exception as e:
++            logging.warning(f"All-Sound-Off / All-Notes-Off failed: {e}")
++        try:
++            if isinstance(midi_info, (list, tuple)) and len(midi_info) == 3:
++                self.state_manager.zynmidi.set_midi_preset(
++                    chan, midi_info[0], midi_info[1], midi_info[2])
++            elif isinstance(midi_info, int):
++                self.state_manager.zynmidi.set_midi_prg(chan, midi_info)
++        except Exception as e:
++            logging.warning(f"Firmware-emulator MIDI preset dispatch failed: {e}")
++
+     def cmp_presets(self, preset1, preset2):
+         try:
+             if preset1[0] == preset2[0]:

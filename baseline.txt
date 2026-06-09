@@ -1,0 +1,8 @@
+# Customization baseline — what we patched against
+captured: 2026-06-09T01:02:37+01:00
+host: zynthian
+zynthianos_version: unknown
+zynthian_ui_commit: 09ff8329a5532a92d59fe437318343d76d867275
+zynthian_ui_branch: vangelis
+python: Python 3.11.2
+kernel: 6.12.87+rpt-rpi-2712
