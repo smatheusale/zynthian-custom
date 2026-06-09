@@ -1,1370 +1,2050 @@
 {
-"Internal A1": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA1",
-"presets": [
-{
-"label": "(none)",
-"url": ""
-},
-{
-"label": "Spit'n Slide Bs",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-000_A11.ttl",
-"midi_pc": 0,
-"midi_bank_select": [
-0,
-0,
-0
-]
-},
-{
-"label": "Velo Decay Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-001_A12.ttl",
-"midi_pc": 1,
-"midi_bank_select": [
-0,
-0,
-1
-]
-},
-{
-"label": "Wall Bob",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-002_A13.ttl",
-"midi_pc": 2,
-"midi_bank_select": [
-0,
-0,
-2
-]
-},
-{
-"label": "Juno Sub Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-003_A14.ttl",
-"midi_pc": 3,
-"midi_bank_select": [
-0,
-0,
-3
-]
-},
-{
-"label": "Subsonic Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-004_A15.ttl",
-"midi_pc": 4,
-"midi_bank_select": [
-0,
-0,
-4
-]
-},
-{
-"label": "Big & Dark",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-005_A16.ttl",
-"midi_pc": 5,
-"midi_bank_select": [
-0,
-0,
-5
-]
-},
-{
-"label": "Bass Flow",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-006_A17.ttl",
-"midi_pc": 6,
-"midi_bank_select": [
-0,
-0,
-6
-]
-},
-{
-"label": "Juno Bass Vel",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-007_A18.ttl",
-"midi_pc": 7,
-"midi_bank_select": [
-0,
-0,
-7
-]
-},
-{
-"label": "init",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/init.ttl"
-}
-]
-},
-"Internal A2": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA2",
-"presets": [
-{
-"label": "Dubb Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-008_A21.ttl",
-"midi_pc": 8,
-"midi_bank_select": [
-0,
-0,
-8
-]
-},
-{
-"label": "Juice Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-009_A22.ttl",
-"midi_pc": 9,
-"midi_bank_select": [
-0,
-0,
-9
-]
-},
-{
-"label": "Dreams Are Made",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-010_A23.ttl",
-"midi_pc": 10,
-"midi_bank_select": [
-0,
-0,
-10
-]
-},
-{
-"label": "Reso Bass Line",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-011_A24.ttl",
-"midi_pc": 11,
-"midi_bank_select": [
-0,
-0,
-11
-]
-},
-{
-"label": "Bass Pedals",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-012_A25.ttl",
-"midi_pc": 12,
-"midi_bank_select": [
-0,
-0,
-12
-]
-},
-{
-"label": "Hard Core Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-013_A26.ttl",
-"midi_pc": 13,
-"midi_bank_select": [
-0,
-0,
-13
-]
-},
-{
-"label": "MC-202 Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-014_A27.ttl",
-"midi_pc": 14,
-"midi_bank_select": [
-0,
-0,
-14
-]
-},
-{
-"label": "Rubber SH-2",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-015_A28.ttl",
-"midi_pc": 15,
-"midi_bank_select": [
-0,
-0,
-15
-]
-}
-]
-},
-"Internal A3": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA3",
-"presets": [
-{
-"label": "Raging Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-016_A31.ttl",
-"midi_pc": 16,
-"midi_bank_select": [
-0,
-0,
-16
-]
-},
-{
-"label": "Blipper Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-017_A32.ttl",
-"midi_pc": 17,
-"midi_bank_select": [
-0,
-0,
-17
-]
-},
-{
-"label": "JP-303",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-018_A33.ttl",
-"midi_pc": 18,
-"midi_bank_select": [
-0,
-0,
-18
-]
-},
-{
-"label": "Rave Time",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-019_A34.ttl",
-"midi_pc": 19,
-"midi_bank_select": [
-0,
-0,
-19
-]
-},
-{
-"label": "Fretless Bass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-020_A35.ttl",
-"midi_pc": 20,
-"midi_bank_select": [
-0,
-0,
-20
-]
-},
-{
-"label": "Digi Strat",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-021_A36.ttl",
-"midi_pc": 21,
-"midi_bank_select": [
-0,
-0,
-21
-]
-},
-{
-"label": "Fire Wire",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-022_A37.ttl",
-"midi_pc": 22,
-"midi_bank_select": [
-0,
-0,
-22
-]
-},
-{
-"label": "Proflike Clavit",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-023_A38.ttl",
-"midi_pc": 23,
-"midi_bank_select": [
-0,
-0,
-23
-]
-}
-]
-},
-"Internal A4": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA4",
-"presets": [
-{
-"label": "Withmod Comp",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-024_A41.ttl",
-"midi_pc": 24,
-"midi_bank_select": [
-0,
-0,
-24
-]
-},
-{
-"label": "Juno Clav",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-025_A42.ttl",
-"midi_pc": 25,
-"midi_bank_select": [
-0,
-0,
-25
-]
-},
-{
-"label": "Gritty Power",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-026_A43.ttl",
-"midi_pc": 26,
-"midi_bank_select": [
-0,
-0,
-26
-]
-},
-{
-"label": "Separate ways",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-027_A44.ttl",
-"midi_pc": 27,
-"midi_bank_select": [
-0,
-0,
-27
-]
-},
-{
-"label": "For RPS",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-028_A45.ttl",
-"midi_pc": 28,
-"midi_bank_select": [
-0,
-0,
-28
-]
-},
-{
-"label": "Bread'n Butter",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-029_A46.ttl",
-"midi_pc": 29,
-"midi_bank_select": [
-0,
-0,
-29
-]
-},
-{
-"label": "Silk 5ths",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-030_A47.ttl",
-"midi_pc": 30,
-"midi_bank_select": [
-0,
-0,
-30
-]
-},
-{
-"label": "Ancient Asia",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-031_A48.ttl",
-"midi_pc": 31,
-"midi_bank_select": [
-0,
-0,
-31
-]
-}
-]
-},
-"Internal A5": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA5",
-"presets": [
-{
-"label": "Intervalic",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-032_A51.ttl",
-"midi_pc": 32,
-"midi_bank_select": [
-0,
-0,
-32
-]
-},
-{
-"label": "Squared Away",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-033_A52.ttl",
-"midi_pc": 33,
-"midi_bank_select": [
-0,
-0,
-33
-]
-},
-{
-"label": "Velo Syncoid",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-034_A53.ttl",
-"midi_pc": 34,
-"midi_bank_select": [
-0,
-0,
-34
-]
-},
-{
-"label": "Resonance Chord",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-035_A54.ttl",
-"midi_pc": 35,
-"midi_bank_select": [
-0,
-0,
-35
-]
-},
-{
-"label": "Resorelease",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-036_A55.ttl",
-"midi_pc": 36,
-"midi_bank_select": [
-0,
-0,
-36
-]
-},
-{
-"label": "Waspy Synth",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-037_A56.ttl",
-"midi_pc": 37,
-"midi_bank_select": [
-0,
-0,
-37
-]
-},
-{
-"label": "Euro SAW",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-038_A57.ttl",
-"midi_pc": 38,
-"midi_bank_select": [
-0,
-0,
-38
-]
-},
-{
-"label": "Dance Sweep",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-039_A58.ttl",
-"midi_pc": 39,
-"midi_bank_select": [
-0,
-0,
-39
-]
-}
-]
-},
-"Internal A6": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA6",
-"presets": [
-{
-"label": "Trance Food",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-040_A61.ttl",
-"midi_pc": 40,
-"midi_bank_select": [
-0,
-0,
-40
-]
-},
-{
-"label": "One Shot Reso",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-041_A62.ttl",
-"midi_pc": 41,
-"midi_bank_select": [
-0,
-0,
-41
-]
-},
-{
-"label": "The Fat Guy",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-042_A63.ttl",
-"midi_pc": 42,
-"midi_bank_select": [
-0,
-0,
-42
-]
-},
-{
-"label": "Spit Brass",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-043_A64.ttl",
-"midi_pc": 43,
-"midi_bank_select": [
-0,
-0,
-43
-]
-},
-{
-"label": "Poly Sync",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-044_A65.ttl",
-"midi_pc": 44,
-"midi_bank_select": [
-0,
-0,
-44
-]
-},
-{
-"label": "Rave 5th",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-045_A66.ttl",
-"midi_pc": 45,
-"midi_bank_select": [
-0,
-0,
-45
-]
-},
-{
-"label": "UK Shorty",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-046_A67.ttl",
-"midi_pc": 46,
-"midi_bank_select": [
-0,
-0,
-46
-]
-},
-{
-"label": "Old Rhodes",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-047_A68.ttl",
-"midi_pc": 47,
-"midi_bank_select": [
-0,
-0,
-47
-]
-}
-]
-},
-"Internal A7": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA7",
-"presets": [
-{
-"label": "Wurly Piano 1",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-048_A71.ttl",
-"midi_pc": 48,
-"midi_bank_select": [
-0,
-0,
-48
-]
-},
-{
-"label": "Wurly Piano 2",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-049_A72.ttl",
-"midi_pc": 49,
-"midi_bank_select": [
-0,
-0,
-49
-]
-},
-{
-"label": "Moody Organ",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-050_A73.ttl",
-"midi_pc": 50,
-"midi_bank_select": [
-0,
-0,
-50
-]
-},
-{
-"label": "Org/Rotary>Ribon",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-051_A74.ttl",
-"midi_pc": 51,
-"midi_bank_select": [
-0,
-0,
-51
-]
-},
-{
-"label": "VK09 PercEchoes",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-052_A75.ttl",
-"midi_pc": 52,
-"midi_bank_select": [
-0,
-0,
-52
-]
-},
-{
-"label": "Sine Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-053_A76.ttl",
-"midi_pc": 53,
-"midi_bank_select": [
-0,
-0,
-53
-]
-},
-{
-"label": "Wichita Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-054_A77.ttl",
-"midi_pc": 54,
-"midi_bank_select": [
-0,
-0,
-54
-]
-},
-{
-"label": "Creamy",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-055_A78.ttl",
-"midi_pc": 55,
-"midi_bank_select": [
-0,
-0,
-55
-]
-}
-]
-},
-"Internal A8": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA8",
-"presets": [
-{
-"label": "Smoothy",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-056_A81.ttl",
-"midi_pc": 56,
-"midi_bank_select": [
-0,
-0,
-56
-]
-},
-{
-"label": "Soaring Mini",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-057_A82.ttl",
-"midi_pc": 57,
-"midi_bank_select": [
-0,
-0,
-57
-]
-},
-{
-"label": "Ribn F/B Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-058_A83.ttl",
-"midi_pc": 58,
-"midi_bank_select": [
-0,
-0,
-58
-]
-},
-{
-"label": "Sup-Jup Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-059_A84.ttl",
-"midi_pc": 59,
-"midi_bank_select": [
-0,
-0,
-59
-]
-},
-{
-"label": "Modular Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-060_A85.ttl",
-"midi_pc": 60,
-"midi_bank_select": [
-0,
-0,
-60
-]
-},
-{
-"label": "Syncrosolo",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-061_A86.ttl",
-"midi_pc": 61,
-"midi_bank_select": [
-0,
-0,
-61
-]
-},
-{
-"label": "Ripper",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-062_A87.ttl",
-"midi_pc": 62,
-"midi_bank_select": [
-0,
-0,
-62
-]
-},
-{
-"label": "Phantom Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-063_A88.ttl",
-"midi_pc": 63,
-"midi_bank_select": [
-0,
-0,
-63
-]
-}
-]
-},
-"Internal B1": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB1",
-"presets": [
-{
-"label": "Whammy Mammy",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-064_B11.ttl",
-"midi_pc": 64,
-"midi_bank_select": [
-0,
-1,
-0
-]
-},
-{
-"label": "Wicked Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-065_B12.ttl",
-"midi_pc": 65,
-"midi_bank_select": [
-0,
-1,
-1
-]
-},
-{
-"label": "Drefull Dr.",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-066_B13.ttl",
-"midi_pc": 66,
-"midi_bank_select": [
-0,
-1,
-2
-]
-},
-{
-"label": "Wiggle Mod",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-067_B14.ttl",
-"midi_pc": 67,
-"midi_bank_select": [
-0,
-1,
-3
-]
-},
-{
-"label": "Feedback Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-068_B15.ttl",
-"midi_pc": 68,
-"midi_bank_select": [
-0,
-1,
-4
-]
-},
-{
-"label": "Crunch",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-069_B16.ttl",
-"midi_pc": 69,
-"midi_bank_select": [
-0,
-1,
-5
-]
-},
-{
-"label": "Chaos Lead",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-070_B17.ttl",
-"midi_pc": 70,
-"midi_bank_select": [
-0,
-1,
-6
-]
-},
-{
-"label": "Out of Control",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-071_B18.ttl",
-"midi_pc": 71,
-"midi_bank_select": [
-0,
-1,
-7
-]
-}
-]
-},
-"Internal B2": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB2",
-"presets": [
-{
-"label": "String Machine",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-072_B21.ttl",
-"midi_pc": 72,
-"midi_bank_select": [
-0,
-1,
-8
-]
-},
-{
-"label": "Tron Vlns",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-073_B22.ttl",
-"midi_pc": 73,
-"midi_bank_select": [
-0,
-1,
-9
-]
-},
-{
-"label": "Luxury Symph",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-074_B23.ttl",
-"midi_pc": 74,
-"midi_bank_select": [
-0,
-1,
-10
-]
-},
-{
-"label": "Debussy",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-075_B24.ttl",
-"midi_pc": 75,
-"midi_bank_select": [
-0,
-1,
-11
-]
-},
-{
-"label": "BPF Velo Strings",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-076_B25.ttl",
-"midi_pc": 76,
-"midi_bank_select": [
-0,
-1,
-12
-]
-},
-{
-"label": "Detuned Str.",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-077_B26.ttl",
-"midi_pc": 77,
-"midi_bank_select": [
-0,
-1,
-13
-]
-},
-{
-"label": "Juno B81 Pad",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-078_B27.ttl",
-"midi_pc": 78,
-"midi_bank_select": [
-0,
-1,
-14
-]
-},
-{
-"label": "Richland",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-079_B28.ttl",
-"midi_pc": 79,
-"midi_bank_select": [
-0,
-1,
-15
-]
-}
-]
-},
-"Internal B3": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB3",
-"presets": [
-{
-"label": "MOD Strings",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-080_B31.ttl",
-"midi_pc": 80,
-"midi_bank_select": [
-0,
-1,
-16
-]
-},
-{
-"label": "Jupiter Pad",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-081_B32.ttl",
-"midi_pc": 81,
-"midi_bank_select": [
-0,
-1,
-17
-]
-},
-{
-"label": "Soft Strings",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-082_B33.ttl",
-"midi_pc": 82,
-"midi_bank_select": [
-0,
-1,
-18
-]
-},
-{
-"label": "Shan-gri-la",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-083_B34.ttl",
-"midi_pc": 83,
-"midi_bank_select": [
-0,
-1,
-19
-]
-},
-{
-"label": "Fine Wine",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-084_B35.ttl",
-"midi_pc": 84,
-"midi_bank_select": [
-0,
-1,
-20
-]
-},
-{
-"label": "Glue Pad",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-085_B36.ttl",
-"midi_pc": 85,
-"midi_bank_select": [
-0,
-1,
-21
-]
-},
-{
-"label": "True Pad",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-086_B37.ttl",
-"midi_pc": 86,
-"midi_bank_select": [
-0,
-1,
-22
-]
-},
-{
-"label": "Foreboding",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-087_B38.ttl",
-"midi_pc": 87,
-"midi_bank_select": [
-0,
-1,
-23
-]
-}
-]
-},
-"Internal B4": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB4",
-"presets": [
-{
-"label": "Skreachea",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-088_B41.ttl",
-"midi_pc": 88,
-"midi_bank_select": [
-0,
-1,
-24
-]
-},
-{
-"label": "BPM Pulse 1",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-089_B42.ttl",
-"midi_pc": 89,
-"midi_bank_select": [
-0,
-1,
-25
-]
-},
-{
-"label": "BPM Pulse 2",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-090_B43.ttl",
-"midi_pc": 90,
-"midi_bank_select": [
-0,
-1,
-26
-]
-},
-{
-"label": "Hi-Pass Puls",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-091_B44.ttl",
-"midi_pc": 91,
-"midi_bank_select": [
-0,
-1,
-27
-]
-},
-{
-"label": "Sample&Hold Me",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-092_B45.ttl",
-"midi_pc": 92,
-"midi_bank_select": [
-0,
-1,
-28
-]
-},
-{
-"label": "MKS80 Space",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-093_B46.ttl",
-"midi_pc": 93,
-"midi_bank_select": [
-0,
-1,
-29
-]
-},
-{
-"label": "Arctic Sweep",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-094_B47.ttl",
-"midi_pc": 94,
-"midi_bank_select": [
-0,
-1,
-30
-]
-},
-{
-"label": "Replicant CS",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-095_B48.ttl",
-"midi_pc": 95,
-"midi_bank_select": [
-0,
-1,
-31
-]
-}
-]
-},
-"Internal B5": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB5",
-"presets": [
-{
-"label": "Stargate",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-096_B51.ttl",
-"midi_pc": 96,
-"midi_bank_select": [
-0,
-1,
-32
-]
-},
-{
-"label": "Lost in Time",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-097_B52.ttl",
-"midi_pc": 97,
-"midi_bank_select": [
-0,
-1,
-33
-]
-},
-{
-"label": "Circular",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-098_B53.ttl",
-"midi_pc": 98,
-"midi_bank_select": [
-0,
-1,
-34
-]
-},
-{
-"label": "Space Choir",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-099_B54.ttl",
-"midi_pc": 99,
-"midi_bank_select": [
-0,
-1,
-35
-]
-},
-{
-"label": "Hypass Sweep",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-100_B55.ttl",
-"midi_pc": 100,
-"midi_bank_select": [
-0,
-1,
-36
-]
-},
-{
-"label": "BPF Tides",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-101_B56.ttl",
-"midi_pc": 101,
-"midi_bank_select": [
-0,
-1,
-37
-]
-},
-{
-"label": "Matrix Sweep",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-102_B57.ttl",
-"midi_pc": 102,
-"midi_bank_select": [
-0,
-1,
-38
-]
-},
-{
-"label": "MKS80 Bells",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-103_B58.ttl",
-"midi_pc": 103,
-"midi_bank_select": [
-0,
-1,
-39
-]
-}
-]
-},
-"Internal B6": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB6",
-"presets": [
-{
-"label": "Tiny bells",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-104_B61.ttl",
-"midi_pc": 104,
-"midi_bank_select": [
-0,
-1,
-40
-]
-},
-{
-"label": "Chimey",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-105_B62.ttl",
-"midi_pc": 105,
-"midi_bank_select": [
-0,
-1,
-41
-]
-},
-{
-"label": "Juno Arp",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-106_B63.ttl",
-"midi_pc": 106,
-"midi_bank_select": [
-0,
-1,
-42
-]
-},
-{
-"label": "Sonar Ping",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-107_B64.ttl",
-"midi_pc": 107,
-"midi_bank_select": [
-0,
-1,
-43
-]
-},
-{
-"label": "Air Harp",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-108_B65.ttl",
-"midi_pc": 108,
-"midi_bank_select": [
-0,
-1,
-44
-]
-},
-{
-"label": "Velo FX Percs",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-109_B66.ttl",
-"midi_pc": 109,
-"midi_bank_select": [
-0,
-1,
-45
-]
-},
-{
-"label": "Quizzled",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-110_B67.ttl",
-"midi_pc": 110,
-"midi_bank_select": [
-0,
-1,
-46
-]
-},
-{
-"label": "Intermittent",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-111_B68.ttl",
-"midi_pc": 111,
-"midi_bank_select": [
-0,
-1,
-47
-]
-}
-]
-},
-"Internal B7": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB7",
-"presets": [
-{
-"label": "Brain Static",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-112_B71.ttl",
-"midi_pc": 112,
-"midi_bank_select": [
-0,
-1,
-48
-]
-},
-{
-"label": "Computone",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-113_B72.ttl",
-"midi_pc": 113,
-"midi_bank_select": [
-0,
-1,
-49
-]
-},
-{
-"label": "Pin Matrix",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-114_B73.ttl",
-"midi_pc": 114,
-"midi_bank_select": [
-0,
-1,
-50
-]
-},
-{
-"label": "Space Cheese",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-115_B74.ttl",
-"midi_pc": 115,
-"midi_bank_select": [
-0,
-1,
-51
-]
-},
-{
-"label": "Rough Day",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-116_B75.ttl",
-"midi_pc": 116,
-"midi_bank_select": [
-0,
-1,
-52
-]
-},
-{
-"label": "The Etruscan.",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-117_B76.ttl",
-"midi_pc": 117,
-"midi_bank_select": [
-0,
-1,
-53
-]
-},
-{
-"label": "Varese",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-118_B77.ttl",
-"midi_pc": 118,
-"midi_bank_select": [
-0,
-1,
-54
-]
-},
-{
-"label": "Pipe Dream",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-119_B78.ttl",
-"midi_pc": 119,
-"midi_bank_select": [
-0,
-1,
-55
-]
-}
-]
-},
-"Internal B8": {
-"bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB8",
-"presets": [
-{
-"label": "Meteor",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-120_B81.ttl",
-"midi_pc": 120,
-"midi_bank_select": [
-0,
-1,
-56
-]
-},
-{
-"label": "Snowman",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-121_B82.ttl",
-"midi_pc": 121,
-"midi_bank_select": [
-0,
-1,
-57
-]
-},
-{
-"label": "Space Ghost",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-122_B83.ttl",
-"midi_pc": 122,
-"midi_bank_select": [
-0,
-1,
-58
-]
-},
-{
-"label": "Ozone",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-123_B84.ttl",
-"midi_pc": 123,
-"midi_bank_select": [
-0,
-1,
-59
-]
-},
-{
-"label": "Cool-a little...",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-124_B85.ttl",
-"midi_pc": 124,
-"midi_bank_select": [
-0,
-1,
-60
-]
-},
-{
-"label": "Electro Gulls",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-125_B86.ttl",
-"midi_pc": 125,
-"midi_bank_select": [
-0,
-1,
-61
-]
-},
-{
-"label": "Template 1",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-126_B87.ttl",
-"midi_pc": 126,
-"midi_bank_select": [
-0,
-1,
-62
-]
-},
-{
-"label": "Template 2",
-"url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-127_B88.ttl",
-"midi_pc": 127,
-"midi_bank_select": [
-0,
-1,
-63
-]
-}
-]
-}
+  "Internal A1": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA1",
+    "presets": [
+      {
+        "label": "(none)",
+        "url": ""
+      },
+      {
+        "label": "Spit'n Slide Bs",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-000_A11.ttl",
+        "midi_pc": 0,
+        "midi_bank_select": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "label": "Velo Decay Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-001_A12.ttl",
+        "midi_pc": 1,
+        "midi_bank_select": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "label": "Wall Bob",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-002_A13.ttl",
+        "midi_pc": 2,
+        "midi_bank_select": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "label": "Juno Sub Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-003_A14.ttl",
+        "midi_pc": 3,
+        "midi_bank_select": [
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "label": "Subsonic Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-004_A15.ttl",
+        "midi_pc": 4,
+        "midi_bank_select": [
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "label": "Big & Dark",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-005_A16.ttl",
+        "midi_pc": 5,
+        "midi_bank_select": [
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "label": "Bass Flow",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-006_A17.ttl",
+        "midi_pc": 6,
+        "midi_bank_select": [
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "label": "Juno Bass Vel",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-007_A18.ttl",
+        "midi_pc": 7,
+        "midi_bank_select": [
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "label": "init",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/init.ttl"
+      }
+    ]
+  },
+  "Internal A2": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA2",
+    "presets": [
+      {
+        "label": "Dubb Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-008_A21.ttl",
+        "midi_pc": 8,
+        "midi_bank_select": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "label": "Juice Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-009_A22.ttl",
+        "midi_pc": 9,
+        "midi_bank_select": [
+          0,
+          0,
+          9
+        ]
+      },
+      {
+        "label": "Dreams Are Made",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-010_A23.ttl",
+        "midi_pc": 10,
+        "midi_bank_select": [
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "label": "Reso Bass Line",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-011_A24.ttl",
+        "midi_pc": 11,
+        "midi_bank_select": [
+          0,
+          0,
+          11
+        ]
+      },
+      {
+        "label": "Bass Pedals",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-012_A25.ttl",
+        "midi_pc": 12,
+        "midi_bank_select": [
+          0,
+          0,
+          12
+        ]
+      },
+      {
+        "label": "Hard Core Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-013_A26.ttl",
+        "midi_pc": 13,
+        "midi_bank_select": [
+          0,
+          0,
+          13
+        ]
+      },
+      {
+        "label": "MC-202 Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-014_A27.ttl",
+        "midi_pc": 14,
+        "midi_bank_select": [
+          0,
+          0,
+          14
+        ]
+      },
+      {
+        "label": "Rubber SH-2",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-015_A28.ttl",
+        "midi_pc": 15,
+        "midi_bank_select": [
+          0,
+          0,
+          15
+        ]
+      }
+    ]
+  },
+  "Internal A3": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA3",
+    "presets": [
+      {
+        "label": "Raging Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-016_A31.ttl",
+        "midi_pc": 16,
+        "midi_bank_select": [
+          0,
+          0,
+          16
+        ]
+      },
+      {
+        "label": "Blipper Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-017_A32.ttl",
+        "midi_pc": 17,
+        "midi_bank_select": [
+          0,
+          0,
+          17
+        ]
+      },
+      {
+        "label": "JP-303",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-018_A33.ttl",
+        "midi_pc": 18,
+        "midi_bank_select": [
+          0,
+          0,
+          18
+        ]
+      },
+      {
+        "label": "Rave Time",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-019_A34.ttl",
+        "midi_pc": 19,
+        "midi_bank_select": [
+          0,
+          0,
+          19
+        ]
+      },
+      {
+        "label": "Fretless Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-020_A35.ttl",
+        "midi_pc": 20,
+        "midi_bank_select": [
+          0,
+          0,
+          20
+        ]
+      },
+      {
+        "label": "Digi Strat",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-021_A36.ttl",
+        "midi_pc": 21,
+        "midi_bank_select": [
+          0,
+          0,
+          21
+        ]
+      },
+      {
+        "label": "Fire Wire",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-022_A37.ttl",
+        "midi_pc": 22,
+        "midi_bank_select": [
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "label": "Proflike Clavit",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-023_A38.ttl",
+        "midi_pc": 23,
+        "midi_bank_select": [
+          0,
+          0,
+          23
+        ]
+      }
+    ]
+  },
+  "Internal A4": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA4",
+    "presets": [
+      {
+        "label": "Withmod Comp",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-024_A41.ttl",
+        "midi_pc": 24,
+        "midi_bank_select": [
+          0,
+          0,
+          24
+        ]
+      },
+      {
+        "label": "Juno Clav",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-025_A42.ttl",
+        "midi_pc": 25,
+        "midi_bank_select": [
+          0,
+          0,
+          25
+        ]
+      },
+      {
+        "label": "Gritty Power",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-026_A43.ttl",
+        "midi_pc": 26,
+        "midi_bank_select": [
+          0,
+          0,
+          26
+        ]
+      },
+      {
+        "label": "Separate ways",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-027_A44.ttl",
+        "midi_pc": 27,
+        "midi_bank_select": [
+          0,
+          0,
+          27
+        ]
+      },
+      {
+        "label": "For RPS",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-028_A45.ttl",
+        "midi_pc": 28,
+        "midi_bank_select": [
+          0,
+          0,
+          28
+        ]
+      },
+      {
+        "label": "Bread'n Butter",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-029_A46.ttl",
+        "midi_pc": 29,
+        "midi_bank_select": [
+          0,
+          0,
+          29
+        ]
+      },
+      {
+        "label": "Silk 5ths",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-030_A47.ttl",
+        "midi_pc": 30,
+        "midi_bank_select": [
+          0,
+          0,
+          30
+        ]
+      },
+      {
+        "label": "Ancient Asia",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-031_A48.ttl",
+        "midi_pc": 31,
+        "midi_bank_select": [
+          0,
+          0,
+          31
+        ]
+      }
+    ]
+  },
+  "Internal A5": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA5",
+    "presets": [
+      {
+        "label": "Intervalic",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-032_A51.ttl",
+        "midi_pc": 32,
+        "midi_bank_select": [
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "label": "Squared Away",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-033_A52.ttl",
+        "midi_pc": 33,
+        "midi_bank_select": [
+          0,
+          0,
+          33
+        ]
+      },
+      {
+        "label": "Velo Syncoid",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-034_A53.ttl",
+        "midi_pc": 34,
+        "midi_bank_select": [
+          0,
+          0,
+          34
+        ]
+      },
+      {
+        "label": "Resonance Chord",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-035_A54.ttl",
+        "midi_pc": 35,
+        "midi_bank_select": [
+          0,
+          0,
+          35
+        ]
+      },
+      {
+        "label": "Resorelease",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-036_A55.ttl",
+        "midi_pc": 36,
+        "midi_bank_select": [
+          0,
+          0,
+          36
+        ]
+      },
+      {
+        "label": "Waspy Synth",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-037_A56.ttl",
+        "midi_pc": 37,
+        "midi_bank_select": [
+          0,
+          0,
+          37
+        ]
+      },
+      {
+        "label": "Euro SAW",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-038_A57.ttl",
+        "midi_pc": 38,
+        "midi_bank_select": [
+          0,
+          0,
+          38
+        ]
+      },
+      {
+        "label": "Dance Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-039_A58.ttl",
+        "midi_pc": 39,
+        "midi_bank_select": [
+          0,
+          0,
+          39
+        ]
+      }
+    ]
+  },
+  "Internal A6": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA6",
+    "presets": [
+      {
+        "label": "Trance Food",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-040_A61.ttl",
+        "midi_pc": 40,
+        "midi_bank_select": [
+          0,
+          0,
+          40
+        ]
+      },
+      {
+        "label": "One Shot Reso",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-041_A62.ttl",
+        "midi_pc": 41,
+        "midi_bank_select": [
+          0,
+          0,
+          41
+        ]
+      },
+      {
+        "label": "The Fat Guy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-042_A63.ttl",
+        "midi_pc": 42,
+        "midi_bank_select": [
+          0,
+          0,
+          42
+        ]
+      },
+      {
+        "label": "Spit Brass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-043_A64.ttl",
+        "midi_pc": 43,
+        "midi_bank_select": [
+          0,
+          0,
+          43
+        ]
+      },
+      {
+        "label": "Poly Sync",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-044_A65.ttl",
+        "midi_pc": 44,
+        "midi_bank_select": [
+          0,
+          0,
+          44
+        ]
+      },
+      {
+        "label": "Rave 5th",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-045_A66.ttl",
+        "midi_pc": 45,
+        "midi_bank_select": [
+          0,
+          0,
+          45
+        ]
+      },
+      {
+        "label": "UK Shorty",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-046_A67.ttl",
+        "midi_pc": 46,
+        "midi_bank_select": [
+          0,
+          0,
+          46
+        ]
+      },
+      {
+        "label": "Old Rhodes",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-047_A68.ttl",
+        "midi_pc": 47,
+        "midi_bank_select": [
+          0,
+          0,
+          47
+        ]
+      }
+    ]
+  },
+  "Internal A7": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA7",
+    "presets": [
+      {
+        "label": "Wurly Piano 1",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-048_A71.ttl",
+        "midi_pc": 48,
+        "midi_bank_select": [
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "label": "Wurly Piano 2",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-049_A72.ttl",
+        "midi_pc": 49,
+        "midi_bank_select": [
+          0,
+          0,
+          49
+        ]
+      },
+      {
+        "label": "Moody Organ",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-050_A73.ttl",
+        "midi_pc": 50,
+        "midi_bank_select": [
+          0,
+          0,
+          50
+        ]
+      },
+      {
+        "label": "Org/Rotary>Ribon",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-051_A74.ttl",
+        "midi_pc": 51,
+        "midi_bank_select": [
+          0,
+          0,
+          51
+        ]
+      },
+      {
+        "label": "VK09 PercEchoes",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-052_A75.ttl",
+        "midi_pc": 52,
+        "midi_bank_select": [
+          0,
+          0,
+          52
+        ]
+      },
+      {
+        "label": "Sine Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-053_A76.ttl",
+        "midi_pc": 53,
+        "midi_bank_select": [
+          0,
+          0,
+          53
+        ]
+      },
+      {
+        "label": "Wichita Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-054_A77.ttl",
+        "midi_pc": 54,
+        "midi_bank_select": [
+          0,
+          0,
+          54
+        ]
+      },
+      {
+        "label": "Creamy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-055_A78.ttl",
+        "midi_pc": 55,
+        "midi_bank_select": [
+          0,
+          0,
+          55
+        ]
+      }
+    ]
+  },
+  "Internal A8": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankA8",
+    "presets": [
+      {
+        "label": "Smoothy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-056_A81.ttl",
+        "midi_pc": 56,
+        "midi_bank_select": [
+          0,
+          0,
+          56
+        ]
+      },
+      {
+        "label": "Soaring Mini",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-057_A82.ttl",
+        "midi_pc": 57,
+        "midi_bank_select": [
+          0,
+          0,
+          57
+        ]
+      },
+      {
+        "label": "Ribn F/B Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-058_A83.ttl",
+        "midi_pc": 58,
+        "midi_bank_select": [
+          0,
+          0,
+          58
+        ]
+      },
+      {
+        "label": "Sup-Jup Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-059_A84.ttl",
+        "midi_pc": 59,
+        "midi_bank_select": [
+          0,
+          0,
+          59
+        ]
+      },
+      {
+        "label": "Modular Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-060_A85.ttl",
+        "midi_pc": 60,
+        "midi_bank_select": [
+          0,
+          0,
+          60
+        ]
+      },
+      {
+        "label": "Syncrosolo",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-061_A86.ttl",
+        "midi_pc": 61,
+        "midi_bank_select": [
+          0,
+          0,
+          61
+        ]
+      },
+      {
+        "label": "Ripper",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-062_A87.ttl",
+        "midi_pc": 62,
+        "midi_bank_select": [
+          0,
+          0,
+          62
+        ]
+      },
+      {
+        "label": "Phantom Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-063_A88.ttl",
+        "midi_pc": 63,
+        "midi_bank_select": [
+          0,
+          0,
+          63
+        ]
+      }
+    ]
+  },
+  "Internal B1": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB1",
+    "presets": [
+      {
+        "label": "Whammy Mammy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-064_B11.ttl",
+        "midi_pc": 64,
+        "midi_bank_select": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "label": "Wicked Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-065_B12.ttl",
+        "midi_pc": 65,
+        "midi_bank_select": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "label": "Drefull Dr.",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-066_B13.ttl",
+        "midi_pc": 66,
+        "midi_bank_select": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Wiggle Mod",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-067_B14.ttl",
+        "midi_pc": 67,
+        "midi_bank_select": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "label": "Feedback Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-068_B15.ttl",
+        "midi_pc": 68,
+        "midi_bank_select": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "label": "Crunch",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-069_B16.ttl",
+        "midi_pc": 69,
+        "midi_bank_select": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "label": "Chaos Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-070_B17.ttl",
+        "midi_pc": 70,
+        "midi_bank_select": [
+          0,
+          1,
+          6
+        ]
+      },
+      {
+        "label": "Out of Control",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-071_B18.ttl",
+        "midi_pc": 71,
+        "midi_bank_select": [
+          0,
+          1,
+          7
+        ]
+      }
+    ]
+  },
+  "Internal B2": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB2",
+    "presets": [
+      {
+        "label": "String Machine",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-072_B21.ttl",
+        "midi_pc": 72,
+        "midi_bank_select": [
+          0,
+          1,
+          8
+        ]
+      },
+      {
+        "label": "Tron Vlns",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-073_B22.ttl",
+        "midi_pc": 73,
+        "midi_bank_select": [
+          0,
+          1,
+          9
+        ]
+      },
+      {
+        "label": "Luxury Symph",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-074_B23.ttl",
+        "midi_pc": 74,
+        "midi_bank_select": [
+          0,
+          1,
+          10
+        ]
+      },
+      {
+        "label": "Debussy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-075_B24.ttl",
+        "midi_pc": 75,
+        "midi_bank_select": [
+          0,
+          1,
+          11
+        ]
+      },
+      {
+        "label": "BPF Velo Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-076_B25.ttl",
+        "midi_pc": 76,
+        "midi_bank_select": [
+          0,
+          1,
+          12
+        ]
+      },
+      {
+        "label": "Detuned Str.",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-077_B26.ttl",
+        "midi_pc": 77,
+        "midi_bank_select": [
+          0,
+          1,
+          13
+        ]
+      },
+      {
+        "label": "Juno B81 Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-078_B27.ttl",
+        "midi_pc": 78,
+        "midi_bank_select": [
+          0,
+          1,
+          14
+        ]
+      },
+      {
+        "label": "Richland",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-079_B28.ttl",
+        "midi_pc": 79,
+        "midi_bank_select": [
+          0,
+          1,
+          15
+        ]
+      }
+    ]
+  },
+  "Internal B3": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB3",
+    "presets": [
+      {
+        "label": "MOD Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-080_B31.ttl",
+        "midi_pc": 80,
+        "midi_bank_select": [
+          0,
+          1,
+          16
+        ]
+      },
+      {
+        "label": "Jupiter Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-081_B32.ttl",
+        "midi_pc": 81,
+        "midi_bank_select": [
+          0,
+          1,
+          17
+        ]
+      },
+      {
+        "label": "Soft Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-082_B33.ttl",
+        "midi_pc": 82,
+        "midi_bank_select": [
+          0,
+          1,
+          18
+        ]
+      },
+      {
+        "label": "Shan-gri-la",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-083_B34.ttl",
+        "midi_pc": 83,
+        "midi_bank_select": [
+          0,
+          1,
+          19
+        ]
+      },
+      {
+        "label": "Fine Wine",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-084_B35.ttl",
+        "midi_pc": 84,
+        "midi_bank_select": [
+          0,
+          1,
+          20
+        ]
+      },
+      {
+        "label": "Glue Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-085_B36.ttl",
+        "midi_pc": 85,
+        "midi_bank_select": [
+          0,
+          1,
+          21
+        ]
+      },
+      {
+        "label": "True Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-086_B37.ttl",
+        "midi_pc": 86,
+        "midi_bank_select": [
+          0,
+          1,
+          22
+        ]
+      },
+      {
+        "label": "Foreboding",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-087_B38.ttl",
+        "midi_pc": 87,
+        "midi_bank_select": [
+          0,
+          1,
+          23
+        ]
+      }
+    ]
+  },
+  "Internal B4": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB4",
+    "presets": [
+      {
+        "label": "Skreachea",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-088_B41.ttl",
+        "midi_pc": 88,
+        "midi_bank_select": [
+          0,
+          1,
+          24
+        ]
+      },
+      {
+        "label": "BPM Pulse 1",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-089_B42.ttl",
+        "midi_pc": 89,
+        "midi_bank_select": [
+          0,
+          1,
+          25
+        ]
+      },
+      {
+        "label": "BPM Pulse 2",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-090_B43.ttl",
+        "midi_pc": 90,
+        "midi_bank_select": [
+          0,
+          1,
+          26
+        ]
+      },
+      {
+        "label": "Hi-Pass Puls",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-091_B44.ttl",
+        "midi_pc": 91,
+        "midi_bank_select": [
+          0,
+          1,
+          27
+        ]
+      },
+      {
+        "label": "Sample&Hold Me",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-092_B45.ttl",
+        "midi_pc": 92,
+        "midi_bank_select": [
+          0,
+          1,
+          28
+        ]
+      },
+      {
+        "label": "MKS80 Space",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-093_B46.ttl",
+        "midi_pc": 93,
+        "midi_bank_select": [
+          0,
+          1,
+          29
+        ]
+      },
+      {
+        "label": "Arctic Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-094_B47.ttl",
+        "midi_pc": 94,
+        "midi_bank_select": [
+          0,
+          1,
+          30
+        ]
+      },
+      {
+        "label": "Replicant CS",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-095_B48.ttl",
+        "midi_pc": 95,
+        "midi_bank_select": [
+          0,
+          1,
+          31
+        ]
+      }
+    ]
+  },
+  "Internal B5": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB5",
+    "presets": [
+      {
+        "label": "Stargate",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-096_B51.ttl",
+        "midi_pc": 96,
+        "midi_bank_select": [
+          0,
+          1,
+          32
+        ]
+      },
+      {
+        "label": "Lost in Time",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-097_B52.ttl",
+        "midi_pc": 97,
+        "midi_bank_select": [
+          0,
+          1,
+          33
+        ]
+      },
+      {
+        "label": "Circular",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-098_B53.ttl",
+        "midi_pc": 98,
+        "midi_bank_select": [
+          0,
+          1,
+          34
+        ]
+      },
+      {
+        "label": "Space Choir",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-099_B54.ttl",
+        "midi_pc": 99,
+        "midi_bank_select": [
+          0,
+          1,
+          35
+        ]
+      },
+      {
+        "label": "Hypass Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-100_B55.ttl",
+        "midi_pc": 100,
+        "midi_bank_select": [
+          0,
+          1,
+          36
+        ]
+      },
+      {
+        "label": "BPF Tides",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-101_B56.ttl",
+        "midi_pc": 101,
+        "midi_bank_select": [
+          0,
+          1,
+          37
+        ]
+      },
+      {
+        "label": "Matrix Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-102_B57.ttl",
+        "midi_pc": 102,
+        "midi_bank_select": [
+          0,
+          1,
+          38
+        ]
+      },
+      {
+        "label": "MKS80 Bells",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-103_B58.ttl",
+        "midi_pc": 103,
+        "midi_bank_select": [
+          0,
+          1,
+          39
+        ]
+      }
+    ]
+  },
+  "Internal B6": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB6",
+    "presets": [
+      {
+        "label": "Tiny bells",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-104_B61.ttl",
+        "midi_pc": 104,
+        "midi_bank_select": [
+          0,
+          1,
+          40
+        ]
+      },
+      {
+        "label": "Chimey",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-105_B62.ttl",
+        "midi_pc": 105,
+        "midi_bank_select": [
+          0,
+          1,
+          41
+        ]
+      },
+      {
+        "label": "Juno Arp",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-106_B63.ttl",
+        "midi_pc": 106,
+        "midi_bank_select": [
+          0,
+          1,
+          42
+        ]
+      },
+      {
+        "label": "Sonar Ping",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-107_B64.ttl",
+        "midi_pc": 107,
+        "midi_bank_select": [
+          0,
+          1,
+          43
+        ]
+      },
+      {
+        "label": "Air Harp",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-108_B65.ttl",
+        "midi_pc": 108,
+        "midi_bank_select": [
+          0,
+          1,
+          44
+        ]
+      },
+      {
+        "label": "Velo FX Percs",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-109_B66.ttl",
+        "midi_pc": 109,
+        "midi_bank_select": [
+          0,
+          1,
+          45
+        ]
+      },
+      {
+        "label": "Quizzled",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-110_B67.ttl",
+        "midi_pc": 110,
+        "midi_bank_select": [
+          0,
+          1,
+          46
+        ]
+      },
+      {
+        "label": "Intermittent",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-111_B68.ttl",
+        "midi_pc": 111,
+        "midi_bank_select": [
+          0,
+          1,
+          47
+        ]
+      }
+    ]
+  },
+  "Internal B7": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB7",
+    "presets": [
+      {
+        "label": "Brain Static",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-112_B71.ttl",
+        "midi_pc": 112,
+        "midi_bank_select": [
+          0,
+          1,
+          48
+        ]
+      },
+      {
+        "label": "Computone",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-113_B72.ttl",
+        "midi_pc": 113,
+        "midi_bank_select": [
+          0,
+          1,
+          49
+        ]
+      },
+      {
+        "label": "Pin Matrix",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-114_B73.ttl",
+        "midi_pc": 114,
+        "midi_bank_select": [
+          0,
+          1,
+          50
+        ]
+      },
+      {
+        "label": "Space Cheese",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-115_B74.ttl",
+        "midi_pc": 115,
+        "midi_bank_select": [
+          0,
+          1,
+          51
+        ]
+      },
+      {
+        "label": "Rough Day",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-116_B75.ttl",
+        "midi_pc": 116,
+        "midi_bank_select": [
+          0,
+          1,
+          52
+        ]
+      },
+      {
+        "label": "The Etruscan.",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-117_B76.ttl",
+        "midi_pc": 117,
+        "midi_bank_select": [
+          0,
+          1,
+          53
+        ]
+      },
+      {
+        "label": "Varese",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-118_B77.ttl",
+        "midi_pc": 118,
+        "midi_bank_select": [
+          0,
+          1,
+          54
+        ]
+      },
+      {
+        "label": "Pipe Dream",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-119_B78.ttl",
+        "midi_pc": 119,
+        "midi_bank_select": [
+          0,
+          1,
+          55
+        ]
+      }
+    ]
+  },
+  "Internal B8": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086_BankB8",
+    "presets": [
+      {
+        "label": "Meteor",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-120_B81.ttl",
+        "midi_pc": 120,
+        "midi_bank_select": [
+          0,
+          1,
+          56
+        ]
+      },
+      {
+        "label": "Snowman",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-121_B82.ttl",
+        "midi_pc": 121,
+        "midi_bank_select": [
+          0,
+          1,
+          57
+        ]
+      },
+      {
+        "label": "Space Ghost",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-122_B83.ttl",
+        "midi_pc": 122,
+        "midi_bank_select": [
+          0,
+          1,
+          58
+        ]
+      },
+      {
+        "label": "Ozone",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-123_B84.ttl",
+        "midi_pc": 123,
+        "midi_bank_select": [
+          0,
+          1,
+          59
+        ]
+      },
+      {
+        "label": "Cool-a little...",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-124_B85.ttl",
+        "midi_pc": 124,
+        "midi_bank_select": [
+          0,
+          1,
+          60
+        ]
+      },
+      {
+        "label": "Electro Gulls",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-125_B86.ttl",
+        "midi_pc": 125,
+        "midi_bank_select": [
+          0,
+          1,
+          61
+        ]
+      },
+      {
+        "label": "Template 1",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-126_B87.ttl",
+        "midi_pc": 126,
+        "midi_bank_select": [
+          0,
+          1,
+          62
+        ]
+      },
+      {
+        "label": "Template 2",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2/JE8086-127_B88.ttl",
+        "midi_pc": 127,
+        "midi_bank_select": [
+          0,
+          1,
+          63
+        ]
+      }
+    ]
+  },
+  "Internal P1": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP1",
+    "presets": [
+      {
+        "label": "P1-1 Chariots",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-1_Chariots.ttl",
+        "midi_pc": 0,
+        "midi_bank_select": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "label": "P1-2 Fizzoid Bass",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-2_Fizzoid_Bass.ttl",
+        "midi_pc": 1,
+        "midi_bank_select": [
+          0,
+          2,
+          1
+        ]
+      },
+      {
+        "label": "P1-3 Skreachy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-3_Skreachy.ttl",
+        "midi_pc": 2,
+        "midi_bank_select": [
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "label": "P1-4 Feedback Lead",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-4_Feedback_Lead.ttl",
+        "midi_pc": 3,
+        "midi_bank_select": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "P1-5 Trancer",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-5_Trancer.ttl",
+        "midi_pc": 4,
+        "midi_bank_select": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "label": "P1-6 Whisper",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-6_Whisper.ttl",
+        "midi_pc": 5,
+        "midi_bank_select": [
+          0,
+          2,
+          5
+        ]
+      },
+      {
+        "label": "P1-7 Dance Split",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-7_Dance_Split.ttl",
+        "midi_pc": 6,
+        "midi_bank_select": [
+          0,
+          2,
+          6
+        ]
+      },
+      {
+        "label": "P1-8 Comb Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P1-8_Comb_Strings.ttl",
+        "midi_pc": 7,
+        "midi_bank_select": [
+          0,
+          2,
+          7
+        ]
+      }
+    ]
+  },
+  "Internal P2": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP2",
+    "presets": [
+      {
+        "label": "P2-1 Descender",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-1_Descender.ttl",
+        "midi_pc": 8,
+        "midi_bank_select": [
+          0,
+          2,
+          8
+        ]
+      },
+      {
+        "label": "P2-2 Glass Columns",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-2_Glass_Columns.ttl",
+        "midi_pc": 9,
+        "midi_bank_select": [
+          0,
+          2,
+          9
+        ]
+      },
+      {
+        "label": "P2-3 BPM Pulsating",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-3_BPM_Pulsating.ttl",
+        "midi_pc": 10,
+        "midi_bank_select": [
+          0,
+          2,
+          10
+        ]
+      },
+      {
+        "label": "P2-4 1979!",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-4_1979.ttl",
+        "midi_pc": 11,
+        "midi_bank_select": [
+          0,
+          2,
+          11
+        ]
+      },
+      {
+        "label": "P2-5 Elliptical",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-5_Elliptical.ttl",
+        "midi_pc": 12,
+        "midi_bank_select": [
+          0,
+          2,
+          12
+        ]
+      },
+      {
+        "label": "P2-6 MKS80 Bell/Space",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-6_MKS80_Bell_Space.ttl",
+        "midi_pc": 13,
+        "midi_bank_select": [
+          0,
+          2,
+          13
+        ]
+      },
+      {
+        "label": "P2-7 Legato TB-303",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-7_Legato_TB-303.ttl",
+        "midi_pc": 14,
+        "midi_bank_select": [
+          0,
+          2,
+          14
+        ]
+      },
+      {
+        "label": "P2-8 Massive Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P2-8_Massive_Pad.ttl",
+        "midi_pc": 15,
+        "midi_bank_select": [
+          0,
+          2,
+          15
+        ]
+      }
+    ]
+  },
+  "Internal P3": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP3",
+    "presets": [
+      {
+        "label": "P3-1 AKS Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-1_AKS_Sweep.ttl",
+        "midi_pc": 16,
+        "midi_bank_select": [
+          0,
+          2,
+          16
+        ]
+      },
+      {
+        "label": "P3-2 Sweepers",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-2_Sweepers.ttl",
+        "midi_pc": 17,
+        "midi_bank_select": [
+          0,
+          2,
+          17
+        ]
+      },
+      {
+        "label": "P3-3 Juliano",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-3_Juliano.ttl",
+        "midi_pc": 18,
+        "midi_bank_select": [
+          0,
+          2,
+          18
+        ]
+      },
+      {
+        "label": "P3-4 Stargate",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-4_Stargate.ttl",
+        "midi_pc": 19,
+        "midi_bank_select": [
+          0,
+          2,
+          19
+        ]
+      },
+      {
+        "label": "P3-5 Dual Mini's",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-5_Dual_Mini_s.ttl",
+        "midi_pc": 20,
+        "midi_bank_select": [
+          0,
+          2,
+          20
+        ]
+      },
+      {
+        "label": "P3-6 Spacescapes",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-6_Spacescapes.ttl",
+        "midi_pc": 21,
+        "midi_bank_select": [
+          0,
+          2,
+          21
+        ]
+      },
+      {
+        "label": "P3-7 Trance Floor",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-7_Trance_Floor.ttl",
+        "midi_pc": 22,
+        "midi_bank_select": [
+          0,
+          2,
+          22
+        ]
+      },
+      {
+        "label": "P3-8 Arctic E-know",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P3-8_Arctic_E-know.ttl",
+        "midi_pc": 23,
+        "midi_bank_select": [
+          0,
+          2,
+          23
+        ]
+      }
+    ]
+  },
+  "Internal P4": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP4",
+    "presets": [
+      {
+        "label": "P4-1 Smooth Split",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-1_Smooth_Split.ttl",
+        "midi_pc": 24,
+        "midi_bank_select": [
+          0,
+          2,
+          24
+        ]
+      },
+      {
+        "label": "P4-2 Fanfare",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-2_Fanfare.ttl",
+        "midi_pc": 25,
+        "midi_bank_select": [
+          0,
+          2,
+          25
+        ]
+      },
+      {
+        "label": "P4-3 Touchy Alarmist",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-3_Touchy_Alarmist.ttl",
+        "midi_pc": 26,
+        "midi_bank_select": [
+          0,
+          2,
+          26
+        ]
+      },
+      {
+        "label": "P4-4 Last Emperor",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-4_Last_Emperor.ttl",
+        "midi_pc": 27,
+        "midi_bank_select": [
+          0,
+          2,
+          27
+        ]
+      },
+      {
+        "label": "P4-5 Euroneuro",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-5_Euroneuro.ttl",
+        "midi_pc": 28,
+        "midi_bank_select": [
+          0,
+          2,
+          28
+        ]
+      },
+      {
+        "label": "P4-6 Babylon",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-6_Babylon.ttl",
+        "midi_pc": 29,
+        "midi_bank_select": [
+          0,
+          2,
+          29
+        ]
+      },
+      {
+        "label": "P4-7 Str/Whistle",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-7_Str_Whistle.ttl",
+        "midi_pc": 30,
+        "midi_bank_select": [
+          0,
+          2,
+          30
+        ]
+      },
+      {
+        "label": "P4-8 Back To The 60's",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P4-8_Back_To_The_60_s.ttl",
+        "midi_pc": 31,
+        "midi_bank_select": [
+          0,
+          2,
+          31
+        ]
+      }
+    ]
+  },
+  "Internal P5": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP5",
+    "presets": [
+      {
+        "label": "P5-1 Wicked",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-1_Wicked.ttl",
+        "midi_pc": 32,
+        "midi_bank_select": [
+          0,
+          2,
+          32
+        ]
+      },
+      {
+        "label": "P5-2 Velo NRG",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-2_Velo_NRG.ttl",
+        "midi_pc": 33,
+        "midi_bank_select": [
+          0,
+          2,
+          33
+        ]
+      },
+      {
+        "label": "P5-3 Circuit Bent",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-3_Circuit_Bent.ttl",
+        "midi_pc": 34,
+        "midi_bank_select": [
+          0,
+          2,
+          34
+        ]
+      },
+      {
+        "label": "P5-4 Arpegg<>Juno Pad",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-4_Arpegg_Juno_Pad.ttl",
+        "midi_pc": 35,
+        "midi_bank_select": [
+          0,
+          2,
+          35
+        ]
+      },
+      {
+        "label": "P5-5 Didjeribbon",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-5_Didjeribbon.ttl",
+        "midi_pc": 36,
+        "midi_bank_select": [
+          0,
+          2,
+          36
+        ]
+      },
+      {
+        "label": "P5-6 Faze Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-6_Faze_Strings.ttl",
+        "midi_pc": 37,
+        "midi_bank_select": [
+          0,
+          2,
+          37
+        ]
+      },
+      {
+        "label": "P5-7 Dual SynthKlavs",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-7_Dual_SynthKlavs.ttl",
+        "midi_pc": 38,
+        "midi_bank_select": [
+          0,
+          2,
+          38
+        ]
+      },
+      {
+        "label": "P5-8 Pulsing Sweep",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P5-8_Pulsing_Sweep.ttl",
+        "midi_pc": 39,
+        "midi_bank_select": [
+          0,
+          2,
+          39
+        ]
+      }
+    ]
+  },
+  "Internal P6": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP6",
+    "presets": [
+      {
+        "label": "P6-1 Mini 5th",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-1_Mini_5th.ttl",
+        "midi_pc": 40,
+        "midi_bank_select": [
+          0,
+          2,
+          40
+        ]
+      },
+      {
+        "label": "P6-2 Tubular",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-2_Tubular.ttl",
+        "midi_pc": 41,
+        "midi_bank_select": [
+          0,
+          2,
+          41
+        ]
+      },
+      {
+        "label": "P6-3 Synthboy Split",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-3_Synthboy_Split.ttl",
+        "midi_pc": 42,
+        "midi_bank_select": [
+          0,
+          2,
+          42
+        ]
+      },
+      {
+        "label": "P6-4 Water Orchestra",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-4_Water_Orchestra.ttl",
+        "midi_pc": 43,
+        "midi_bank_select": [
+          0,
+          2,
+          43
+        ]
+      },
+      {
+        "label": "P6-5 Split of 5ths",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-5_Split_of_5ths.ttl",
+        "midi_pc": 44,
+        "midi_bank_select": [
+          0,
+          2,
+          44
+        ]
+      },
+      {
+        "label": "P6-6 Road To Goa",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-6_Road_To_Goa.ttl",
+        "midi_pc": 45,
+        "midi_bank_select": [
+          0,
+          2,
+          45
+        ]
+      },
+      {
+        "label": "P6-7 Rain Drops",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-7_Rain_Drops.ttl",
+        "midi_pc": 46,
+        "midi_bank_select": [
+          0,
+          2,
+          46
+        ]
+      },
+      {
+        "label": "P6-8 Wide Quark Rings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P6-8_Wide_Quark_Rings.ttl",
+        "midi_pc": 47,
+        "midi_bank_select": [
+          0,
+          2,
+          47
+        ]
+      }
+    ]
+  },
+  "Internal P7": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP7",
+    "presets": [
+      {
+        "label": "P7-1 Tritouch Layer",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-1_Tritouch_Layer.ttl",
+        "midi_pc": 48,
+        "midi_bank_select": [
+          0,
+          2,
+          48
+        ]
+      },
+      {
+        "label": "P7-2 Aquapeggios",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-2_Aquapeggios.ttl",
+        "midi_pc": 49,
+        "midi_bank_select": [
+          0,
+          2,
+          49
+        ]
+      },
+      {
+        "label": "P7-3 OB Eight",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-3_OB_Eight.ttl",
+        "midi_pc": 50,
+        "midi_bank_select": [
+          0,
+          2,
+          50
+        ]
+      },
+      {
+        "label": "P7-4 Swynk",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-4_Swynk.ttl",
+        "midi_pc": 51,
+        "midi_bank_select": [
+          0,
+          2,
+          51
+        ]
+      },
+      {
+        "label": "P7-5 GR-300 Solo",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-5_GR-300_Solo.ttl",
+        "midi_pc": 52,
+        "midi_bank_select": [
+          0,
+          2,
+          52
+        ]
+      },
+      {
+        "label": "P7-6 Ring Split",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-6_Ring_Split.ttl",
+        "midi_pc": 53,
+        "midi_bank_select": [
+          0,
+          2,
+          53
+        ]
+      },
+      {
+        "label": "P7-7 Observatory",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-7_Observatory.ttl",
+        "midi_pc": 54,
+        "midi_bank_select": [
+          0,
+          2,
+          54
+        ]
+      },
+      {
+        "label": "P7-8 Tron Strings",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P7-8_Tron_Strings.ttl",
+        "midi_pc": 55,
+        "midi_bank_select": [
+          0,
+          2,
+          55
+        ]
+      }
+    ]
+  },
+  "Internal P8": {
+    "bank_url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/JE8086_BankP8",
+    "presets": [
+      {
+        "label": "P8-1 Mirror Balls",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-1_Mirror_Balls.ttl",
+        "midi_pc": 56,
+        "midi_bank_select": [
+          0,
+          2,
+          56
+        ]
+      },
+      {
+        "label": "P8-2 Entropy",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-2_Entropy.ttl",
+        "midi_pc": 57,
+        "midi_bank_select": [
+          0,
+          2,
+          57
+        ]
+      },
+      {
+        "label": "P8-3 Template1",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-3_Template1.ttl",
+        "midi_pc": 58,
+        "midi_bank_select": [
+          0,
+          2,
+          58
+        ]
+      },
+      {
+        "label": "P8-4 Template2",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-4_Template2.ttl",
+        "midi_pc": 59,
+        "midi_bank_select": [
+          0,
+          2,
+          59
+        ]
+      },
+      {
+        "label": "P8-5 Template3",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-5_Template3.ttl",
+        "midi_pc": 60,
+        "midi_bank_select": [
+          0,
+          2,
+          60
+        ]
+      },
+      {
+        "label": "P8-6 Template4",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-6_Template4.ttl",
+        "midi_pc": 61,
+        "midi_bank_select": [
+          0,
+          2,
+          61
+        ]
+      },
+      {
+        "label": "P8-7 Template5",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-7_Template5.ttl",
+        "midi_pc": 62,
+        "midi_bank_select": [
+          0,
+          2,
+          62
+        ]
+      },
+      {
+        "label": "P8-8 Template6",
+        "url": "file:///zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2/P8-8_Template6.ttl",
+        "midi_pc": 63,
+        "midi_bank_select": [
+          0,
+          2,
+          63
+        ]
+      }
+    ]
+  }
 }

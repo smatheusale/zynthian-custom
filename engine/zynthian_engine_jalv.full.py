@@ -654,6 +654,14 @@ class zynthian_engine_jalv(zynthian_engine):
             lib_zyncore.ui_send_ccontrol_change(chan, 123, 0)
         except Exception as e:
             logging.warning(f"All-Sound-Off / All-Notes-Off failed: {e}")
+        # JE8086 PANEL MODE: 0=Patch (A/B banks), 1=Performance (P bank, LSB=2).
+        # Sent via jalv stdin `set <index> <value>` which speaks patch:Set.
+        if self.plugin_name == "JE8086" and isinstance(midi_info, (list, tuple)) and len(midi_info) == 3:
+            panel_mode = 1 if midi_info[1] == 2 else 0
+            try:
+                self.proc_cmd(f"set 127 {panel_mode}")
+            except Exception as e:
+                logging.warning(f"JE8086 PANEL MODE set failed: {e}")
         try:
             if isinstance(midi_info, (list, tuple)) and len(midi_info) == 3:
                 self.state_manager.zynmidi.set_midi_preset(

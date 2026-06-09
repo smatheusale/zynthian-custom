@@ -1,10 +1,100 @@
-@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
 @prefix lv2: <http://lv2plug.in/ns/lv2core#> .
 @prefix pset: <http://lv2plug.in/ns/ext/presets#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix state: <http://lv2plug.in/ns/ext/state#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<JE8086_BankP1>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P1" .
+
+<JE8086_BankP2>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P2" .
+
+<JE8086_BankP3>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P3" .
+
+<JE8086_BankP4>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P4" .
+
+<JE8086_BankP5>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P5" .
+
+<JE8086_BankP6>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P6" .
+
+<JE8086_BankP7>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P7" .
+
+<JE8086_BankP8>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Bank ;
+	rdfs:label "Internal P8" .
+
+<P1-1_Chariots.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-1_Chariots.ttl> .
+
+<P1-2_Fizzoid_Bass.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-2_Fizzoid_Bass.ttl> .
+
+<P1-3_Skreachy.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-3_Skreachy.ttl> .
+
+<P1-4_Feedback_Lead.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-4_Feedback_Lead.ttl> .
+
+<P1-5_Trancer.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-5_Trancer.ttl> .
+
+<P1-6_Whisper.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-6_Whisper.ttl> .
+
+<P1-7_Dance_Split.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-7_Dance_Split.ttl> .
+
+<P1-8_Comb_Strings.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P1-8_Comb_Strings.ttl> .
+
+<P2-1_Descender.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-1_Descender.ttl> .
+
+<P2-2_Glass_Columns.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-2_Glass_Columns.ttl> .
 
 <init.ttl>
 	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
