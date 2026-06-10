@@ -12,6 +12,10 @@ cp /zynthian/zynthian-ui/zyngine/zynthian_engine_jalv.py "$HERE/engine/zynthian_
 
 cp /zynthian/config/jalv/presets_JE8086.json "$HERE/cache/"
 
+mkdir -p "$HERE/system"
+cp /etc/systemd/system/jack2.service "$HERE/system/jack2.service"
+cp /zynthian/config/zynthian_envars.sh "$HERE/system/zynthian_envars.sh"
+
 rm -rf "$HERE/bundles/JE8086.presets.lv2" "$HERE/bundles/JE8086_Factory.presets.lv2"
 cp -r /zynthian/zynthian-my-data/presets/lv2/JE8086.presets.lv2 "$HERE/bundles/"
 cp -r /zynthian/zynthian-my-data/presets/lv2/JE8086_Factory.presets.lv2 "$HERE/bundles/"

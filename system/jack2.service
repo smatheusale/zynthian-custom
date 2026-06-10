@@ -1,0 +1,16 @@
+[Unit]
+Description=JACK2 Audio Server
+#After=sound.target
+
+[Service]
+Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/dbus/system_bus_socket
+Environment=LV2_PATH=/usr/lib/lv2:/usr/lib/aarch64-linux-gnu/lv2:/usr/local/lib/lv2:/usr/local/lib/aarch64-linux-gnu/lv2:/zynthian/zynthian-plugins/lv2:/zynthian/zynthian-data/presets/lv2:/zynthian/zynthian-my-data/presets/lv2
+Environment=JACK_NO_AUDIO_RESERVATION=1
+LimitRTPRIO=infinity
+LimitMEMLOCK=infinity
+ExecStart=/usr/bin/jackd -P 70 -s -S -d alsa -d hw:sndrpihifiberry -r 48000 -p 256 -n 2 -i 2 -o 2 -X raw
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

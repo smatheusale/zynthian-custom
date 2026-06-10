@@ -32,7 +32,18 @@ mkdir -p /zynthian/zynthian-my-data/presets/lv2
 cp -r "$HERE/bundles/JE8086.presets.lv2" /zynthian/zynthian-my-data/presets/lv2/
 cp -r "$HERE/bundles/JE8086_Factory.presets.lv2" /zynthian/zynthian-my-data/presets/lv2/
 
-# 4. Tooling
+# 4. System units (JACK buffer size etc.)
+if [[ -f "$HERE/system/jack2.service" ]]; then
+    echo "==> Restoring /etc/systemd/system/jack2.service (JACK -p 256 buffer)"
+    cp "$HERE/system/jack2.service" /etc/systemd/system/jack2.service
+    systemctl daemon-reload
+fi
+if [[ -f "$HERE/system/zynthian_envars.sh" ]]; then
+    echo "==> Restoring /zynthian/config/zynthian_envars.sh"
+    cp "$HERE/system/zynthian_envars.sh" /zynthian/config/zynthian_envars.sh
+fi
+
+# 5. Tooling
 if [[ ! -x /zynthian/venv/bin/py-spy ]]; then
     echo "==> Installing py-spy in zynthian venv"
     /zynthian/venv/bin/pip install py-spy
@@ -42,7 +53,7 @@ if ! command -v gh >/dev/null 2>&1; then
     apt-get install -y gh
 fi
 
-# 5. Restart service
+# 6. Restart service
 echo "==> Restarting zynthian.service"
 systemctl restart zynthian
 sleep 3
