@@ -96,6 +96,266 @@
 	a pset:Preset ;
 	rdfs:seeAlso <P2-2_Glass_Columns.ttl> .
 
+<P2-3_BPM_Pulsating.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-3_BPM_Pulsating.ttl> .
+
+<P2-4_1979.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-4_1979.ttl> .
+
+<P2-5_Elliptical.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-5_Elliptical.ttl> .
+
+<P2-6_MKS80_Bell_Space.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-6_MKS80_Bell_Space.ttl> .
+
+<P2-7_Legato_TB-303.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-7_Legato_TB-303.ttl> .
+
+<P2-8_Massive_Pad.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P2-8_Massive_Pad.ttl> .
+
+<P3-1_AKS_Sweep.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-1_AKS_Sweep.ttl> .
+
+<P3-2_Sweepers.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-2_Sweepers.ttl> .
+
+<P3-3_Juliano.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-3_Juliano.ttl> .
+
+<P3-4_Stargate.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-4_Stargate.ttl> .
+
+<P3-6_Spacescapes.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-6_Spacescapes.ttl> .
+
+<P3-7_Trance_Floor.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-7_Trance_Floor.ttl> .
+
+<P3-8_Arctic_E-know.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P3-8_Arctic_E-know.ttl> .
+
+<P4-1_Smooth_Split.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-1_Smooth_Split.ttl> .
+
+<P4-2_Fanfare.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-2_Fanfare.ttl> .
+
+<P4-3_Touchy_Alarmist.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-3_Touchy_Alarmist.ttl> .
+
+<P4-4_Last_Emperor.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-4_Last_Emperor.ttl> .
+
+<P4-5_Euroneuro.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-5_Euroneuro.ttl> .
+
+<P4-6_Babylon.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-6_Babylon.ttl> .
+
+<P4-7_Str_Whistle.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P4-7_Str_Whistle.ttl> .
+
+<P5-1_Wicked.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-1_Wicked.ttl> .
+
+<P5-2_Velo_NRG.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-2_Velo_NRG.ttl> .
+
+<P5-3_Circuit_Bent.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-3_Circuit_Bent.ttl> .
+
+<P5-4_Arpegg.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-4_Arpegg.ttl> .
+
+<P5-5_Didjeribbon.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-5_Didjeribbon.ttl> .
+
+<P5-6_Faze_Strings.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-6_Faze_Strings.ttl> .
+
+<P5-7_Dual_SynthKlavs.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-7_Dual_SynthKlavs.ttl> .
+
+<P5-8_Pulsing_Sweep.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P5-8_Pulsing_Sweep.ttl> .
+
+<P6-1_Mini_5th.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-1_Mini_5th.ttl> .
+
+<P6-2_Tubular.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-2_Tubular.ttl> .
+
+<P6-3_Synthboy_Split.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-3_Synthboy_Split.ttl> .
+
+<P6-4_Water_Orchestra.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-4_Water_Orchestra.ttl> .
+
+<P6-5_Split_of_5ths.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-5_Split_of_5ths.ttl> .
+
+<P6-6_Road_To_Goa.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-6_Road_To_Goa.ttl> .
+
+<P6-7_Rain_Drops.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-7_Rain_Drops.ttl> .
+
+<P6-8_Wide_Quark_Rings.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P6-8_Wide_Quark_Rings.ttl> .
+
+<P7-1_Tritouch_Layer.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-1_Tritouch_Layer.ttl> .
+
+<P7-2_Aquapeggios.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-2_Aquapeggios.ttl> .
+
+<P7-3_OB_Eight.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-3_OB_Eight.ttl> .
+
+<P7-4_Swynk.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-4_Swynk.ttl> .
+
+<P7-5_GR-300_Solo.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-5_GR-300_Solo.ttl> .
+
+<P7-6_Ring_Split.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-6_Ring_Split.ttl> .
+
+<P7-7_Observatory.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-7_Observatory.ttl> .
+
+<P7-8_Tron_Strings.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P7-8_Tron_Strings.ttl> .
+
+<P8-1_Mirror_Balls.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-1_Mirror_Balls.ttl> .
+
+<P8-2_Entropy.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-2_Entropy.ttl> .
+
+<P8-3_Template1.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-3_Template1.ttl> .
+
+<P8-4_Template2.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-4_Template2.ttl> .
+
+<P8-5_Template3.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-5_Template3.ttl> .
+
+<P8-6_Template4.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-6_Template4.ttl> .
+
+<P8-7_Template5.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-7_Template5.ttl> .
+
+<P8-8_Template6.ttl>
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	a pset:Preset ;
+	rdfs:seeAlso <P8-8_Template6.ttl> .
+
 <init.ttl>
 	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
 	a pset:Preset ;

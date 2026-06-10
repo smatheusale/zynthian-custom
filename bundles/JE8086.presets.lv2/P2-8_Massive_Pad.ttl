@@ -1,0 +1,23 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <http://theusualsuspects.lv2/JE8086> ;
+	rdfs:label "P2-8 Massive Pad" ;
+	pset:bank <JE8086_BankP2> ;
+	lv2:port [
+		lv2:symbol "enabled" ;
+		pset:value 1.0
+	] , [
+		lv2:symbol "freeWheeling" ;
+		pset:value 0.0
+	] ;
+	state:state [
+		<http://theusualsuspects.lv2/JE8086:StateString> "1184.H....PzTPUiMy.CLB....vHA..PSIQTRA....bn...vfB...A..7AAA.FHA.....B.PD.DP.AD...HC......Hf...f...PL2CeeE.fA.........PvB.bO7AAA.FHQ.....ME1byklckABTgQFHf.BHf.vM.HC..P..BPC..L...3P...faubO7AAA.FHQ...A.....X....b08vGDD.XfDA.PD....A7A...fS2CePP.fARD...APSgM2boYWYf.UXjARUf.BH.vB.KA...TR.CszR....uDT..jgN07m..DF.TADPQcD.+8ybYADJ.7mNA3FP..P.sUxYBH..B...A.ve.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+AveAvC.+Ave.7G.+Ave.7G.+Ave.7G.1Ave.7G.+Ave.7G.+Ave.7W.9Ave.7G.+A..+E..+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7W.O.ve.7G.+AveAj..+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+EP.A..P2CePP.fARD..BAPSgM2boYWYf.UXjABSf.BH.DCPlD...DW..gxH.fTA....AHyTuLm.AzRQUAzRQA.Q+k0e3...c..BA.DP.L2.GAVOBH..B...C.ve.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+AveAv..+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+A..+E..+Ave.D..+Ave.7G.+Ave.7G.+Ave.7G.+AveAnB.+EPB.7G.+Ave.7G.+Ave.7G.+AveADC.+Ave.7G.+Ave.7G.+Ave.7G.+Ave.7G.+EP.A.fJ2eTPI4T.....L....D........3O...f+zFbI8T.....H...............MklTME.....I..............v+.7O..7O.+C...7++.....7++......v+....MQDSNI....vV....VA...rWCJ.BHh3VXsUlH5.hHhvRCJ.BHhXWYxMWZu4lH5.RLrzfBf.hHsEFbvklamMmH5.xVcwRCJ.BHhPVYlEVcrQmQkUFYhE1XqQUXxcVYzMmH5.BLMnPeXTDQSQU.....pD...XR....bsQDcB....nQ...fEA...A....D.....D....kA...PWdvUFex8Va74VXsUFeKUVdh8VXxQFHs.BTkImYuIWag41XkABT5DSLfzBHPoCN3vmXg41Z7ICevI2amwWL0vGZgMGZ7kyX4PiMwLSYjQFM0LyXzDyMyfiYgYlMzLFM3DCMgYVXkA...PWdvUFex8Va74VXsUFeKUVdh8VXxQFHs.BTkImYuIWag41XkABT5DSLfzBHPoCN3vmXg41Z7ICevI2amwWL0vGZgMGZ7kyX4PiMwLSYjQFM0LyXzDyMyfiYgYlMzLFM3DCMgYVX..........................................................................."
+	] .
