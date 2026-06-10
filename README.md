@@ -9,6 +9,21 @@ MIT-licensed, the engine patch derives from `zynthian-ui` (GPL-3.0). See
 ➡ **Looking for the JE8086 / Roland JP-8000 writeup?** See
 [`JE8086.md`](JE8086.md) for the full how-to.
 
+> ## ⚠️ IMPORTANT — MIDI CHANNEL REQUIREMENT
+>
+> **This solution only works when the JE8086 chain is set to a FIXED MIDI
+> channel (e.g. channel 1). It does NOT work with the chain's MIDI channel
+> set to "ALL" / omni.**
+>
+> In omni mode, Zynthian collapses every incoming MIDI channel into ch0,
+> which breaks multitimbral routing for Dual / Split Performances —
+> only the Upper Part will respond. Preset switching also breaks unless the
+> dispatch can target a real channel.
+>
+> **Use MIDI channel 1 (or any other fixed channel) — not ALL.** If you
+> want any keyboard to play it regardless of its TX channel, configure the
+> remap on the input side instead of switching the chain to omni.
+
 See [`RESTORE.md`](RESTORE.md) for the full runbook.
 
 ## Quick start (fresh install)
