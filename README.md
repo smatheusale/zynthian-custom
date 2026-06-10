@@ -2,6 +2,13 @@
 
 Personal customizations for my [Zynthian](https://zynthian.org) (Raspberry Pi 5, V5 controller). Self-contained restore kit so any reformat or upstream upgrade is a one-command recovery.
 
+By **[@smatheusale](https://instagram.com/smatheusale)** on Instagram. Code is
+MIT-licensed, the engine patch derives from `zynthian-ui` (GPL-3.0). See
+[`LICENSE`](LICENSE) and [`DISCLAIMER.md`](DISCLAIMER.md).
+
+➡ **Looking for the JE8086 / Roland JP-8000 writeup?** See
+[`JE8086.md`](JE8086.md) for the full how-to.
+
 See [`RESTORE.md`](RESTORE.md) for the full runbook.
 
 ## Quick start (fresh install)
