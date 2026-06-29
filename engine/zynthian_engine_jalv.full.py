@@ -641,7 +641,16 @@ class zynthian_engine_jalv(zynthian_engine):
         self.proc_cmd(f"preset {preset[0]}")
         midi_info = preset[1]
         if midi_info is not None:
-            chan = processor.get_midi_chan()
+            # Use midi_chan_engine — the channel the plugin actually listens on
+            # post-zmop-translation. For dsp56300 plugins this is always 0,
+            # regardless of whether the chain is set to a specific channel or
+            # "ALL" (omni, midi_chan=0xffff). Using get_midi_chan() here breaks
+            # MIDI dispatch when the chain is in omni mode.
+            chan = getattr(processor, 'midi_chan_engine', None)
+            if chan is None or chan > 15:
+                chan = processor.get_midi_chan()
+                if chan is None or chan > 15:
+                    chan = 0
             self._dispatch_firmware_midi(chan, midi_info)
             # Re-dispatch after a delay so snapshot restore lands AFTER
             # zynautoconnect wires the chain's MIDI and jalv is fully up.

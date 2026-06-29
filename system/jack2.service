@@ -8,7 +8,7 @@ Environment=LV2_PATH=/usr/lib/lv2:/usr/lib/aarch64-linux-gnu/lv2:/usr/local/lib/
 Environment=JACK_NO_AUDIO_RESERVATION=1
 LimitRTPRIO=infinity
 LimitMEMLOCK=infinity
-ExecStart=/usr/bin/jackd -P 70 -s -S -d alsa -d hw:sndrpihifiberry -r 48000 -p 256 -n 2 -i 2 -o 2 -X raw
+ExecStart=/usr/bin/jackd -P 70 -s -S -d alsa -d hw:sndrpihifiberry -r 48000 -p 512 -n 2 -i 2 -o 2 -X raw
 Restart=always
 RestartSec=2
 

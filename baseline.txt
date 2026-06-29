@@ -1,5 +1,5 @@
 # Customization baseline — what we patched against
-captured: 2026-06-10T03:22:08+01:00
+captured: 2026-06-29T13:24:56+01:00
 host: zynthian
 zynthianos_version: unknown
 zynthian_ui_commit: 09ff8329a5532a92d59fe437318343d76d867275
