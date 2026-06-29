@@ -1,5 +1,5 @@
 diff --git a/zyngine/zynthian_engine_jalv.py b/zyngine/zynthian_engine_jalv.py
-index a698dc41..d4bf6c07 100644
+index a698dc41..35af2fdb 100644
 --- a/zyngine/zynthian_engine_jalv.py
 +++ b/zyngine/zynthian_engine_jalv.py
 @@ -32,7 +32,7 @@ import logging
@@ -11,7 +11,26 @@ index a698dc41..d4bf6c07 100644
  from subprocess import Popen, check_output, STDOUT, PIPE
  
  import zynautoconnect
-@@ -414,6 +414,8 @@ class zynthian_engine_jalv(zynthian_engine):
+@@ -326,6 +326,18 @@ class zynthian_engine_jalv(zynthian_engine):
+ 
+     def load_preset_info(self):
+         self.preset_info = zynthian_lv2.get_plugin_presets_cache(self.plugin_name)
++        # Firmware-emulator plugins (JE8086, NodalRed2x, VirtualJV, ...) store
++        # midi_bank_select / midi_pc per preset in the cache. For those, the
++        # actual patch select happens via MIDI dispatch in set_preset — so
++        # snapshot restore must re-fire it after JACK ports are wired.
++        try:
++            for bank in self.preset_info.values():
++                for p in bank.get('presets', []):
++                    if 'midi_bank_select' in p or 'midi_pc' in p:
++                        self.needs_set_preset_after_restore = True
++                        return
++        except Exception:
++            pass
+ 
+     # ---------------------------------------------------------------------------
+     # Subprocess Management & IPC
+@@ -414,6 +426,8 @@ class zynthian_engine_jalv(zynthian_engine):
  
      def proc_poll_parse_line(self, line):
          #logging.debug(f"{self.jackname} PARSE => " + line)
@@ -20,7 +39,7 @@ index a698dc41..d4bf6c07 100644
          match line[0:5]:
              case "#CTR>":
                  self.proc_parse_ctrl_value(line[6:])
-@@ -498,6 +500,20 @@ class zynthian_engine_jalv(zynthian_engine):
+@@ -498,6 +512,20 @@ class zynthian_engine_jalv(zynthian_engine):
      def add_processor(self, processor):
          self.set_midi_chan(processor)
          super().add_processor(processor)
@@ -41,7 +60,7 @@ index a698dc41..d4bf6c07 100644
  
      def get_name(self, processor=None):
          return self.plugin_name
-@@ -612,7 +628,8 @@ class zynthian_engine_jalv(zynthian_engine):
+@@ -612,7 +640,8 @@ class zynthian_engine_jalv(zynthian_engine):
          try:
              for info in self.preset_info[bank[2]]['presets']:
                  title = info['label'].replace("_", " ").strip()
@@ -51,7 +70,7 @@ index a698dc41..d4bf6c07 100644
          except:
              preset_list.append(("", None, "", None))
  
-@@ -622,8 +639,47 @@ class zynthian_engine_jalv(zynthian_engine):
+@@ -622,8 +651,58 @@ class zynthian_engine_jalv(zynthian_engine):
          if not preset[0]:
              return
          self.proc_cmd(f"preset {preset[0]}")
@@ -67,16 +86,23 @@ index a698dc41..d4bf6c07 100644
 +                chan = processor.get_midi_chan()
 +                if chan is None or chan > 15:
 +                    chan = 0
-+            self._dispatch_firmware_midi(chan, midi_info)
-+            # Re-dispatch after a delay so snapshot restore lands AFTER
-+            # zynautoconnect wires the chain's MIDI and jalv is fully up.
-+            Timer(1.5, self._dispatch_firmware_midi, args=(chan, midi_info)).start()
++            self._dispatch_firmware_midi(processor, chan, midi_info)
          return True
  
-+    def _dispatch_firmware_midi(self, chan, midi_info):
++    def _dispatch_firmware_midi(self, processor, chan, midi_info):
++        # Send the Bank Select + Program Change ONLY to this chain's zmop
++        # output, not via the global ui_send_*/zynmidi broadcast. Broadcasting
++        # on `chan` leaks the PC to every other chain sharing that MIDI channel
++        # (e.g. a layered FluidSynth or LinuxSampler), hijacking their program.
++        # zmop_send_* targets this processor's chain alone.
 +        try:
-+            lib_zyncore.ui_send_ccontrol_change(chan, 120, 0)
-+            lib_zyncore.ui_send_ccontrol_change(chan, 123, 0)
++            zmop = processor.chain.zmop_index
++        except Exception:
++            zmop = None
++        try:
++            if zmop is not None:
++                lib_zyncore.zmop_send_ccontrol_change(zmop, chan, 120, 0)
++                lib_zyncore.zmop_send_ccontrol_change(zmop, chan, 123, 0)
 +        except Exception as e:
 +            logging.warning(f"All-Sound-Off / All-Notes-Off failed: {e}")
 +        # JE8086 PANEL MODE: 0=Patch (A/B banks), 1=Performance (P bank, LSB=2).
@@ -87,12 +113,16 @@ index a698dc41..d4bf6c07 100644
 +                self.proc_cmd(f"set 127 {panel_mode}")
 +            except Exception as e:
 +                logging.warning(f"JE8086 PANEL MODE set failed: {e}")
++        if zmop is None:
++            logging.warning("Firmware-emulator MIDI dispatch: no zmop_index, skipping")
++            return
 +        try:
 +            if isinstance(midi_info, (list, tuple)) and len(midi_info) == 3:
-+                self.state_manager.zynmidi.set_midi_preset(
-+                    chan, midi_info[0], midi_info[1], midi_info[2])
++                lib_zyncore.zmop_send_ccontrol_change(zmop, chan, 0, midi_info[0])
++                lib_zyncore.zmop_send_ccontrol_change(zmop, chan, 32, midi_info[1])
++                lib_zyncore.zmop_send_program_change(zmop, chan, midi_info[2])
 +            elif isinstance(midi_info, int):
-+                self.state_manager.zynmidi.set_midi_prg(chan, midi_info)
++                lib_zyncore.zmop_send_program_change(zmop, chan, midi_info)
 +        except Exception as e:
 +            logging.warning(f"Firmware-emulator MIDI preset dispatch failed: {e}")
 +

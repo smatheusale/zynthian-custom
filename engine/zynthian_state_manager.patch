@@ -1,0 +1,40 @@
+diff --git a/zyngine/zynthian_state_manager.py b/zyngine/zynthian_state_manager.py
+index 62fb5686..5af6047e 100644
+--- a/zyngine/zynthian_state_manager.py
++++ b/zyngine/zynthian_state_manager.py
+@@ -1232,9 +1232,34 @@ class zynthian_state_manager:
+             self.set_busy_error("ERROR: Invalid snapshot", e)
+             sleep(2)
+ 
+-        zynautoconnect.request_midi_connect()
++        zynautoconnect.request_midi_connect(True)
+         zynautoconnect.request_audio_connect(True)
+ 
++        # Re-fire set_preset on engines that load patches via MIDI dispatch or
++        # file load (firmware emulators, FluidSynth). Snapshot restore wrote
++        # preset_info but skipped engine.set_preset; without this, the chain
++        # plays the engine's default sound while the UI shows the snapshot's
++        # intended preset name. Small sleep lets the JACK MIDI graph settle so
++        # the dispatched bytes don't land on un-wired ports.
++        sleep(0.5)
++        for proc in self.chain_manager.processors.values():
++            eng = getattr(proc, 'engine', None)
++            if not getattr(eng, 'needs_set_preset_after_restore', False) or not proc.preset_info:
++                continue
++            pi = proc.preset_info
++            try:
++                # Snapshot restore populates preset_info but the actual patch
++                # select (MIDI Program Change for firmware emulators, fluidsynth
++                # `select` for SF2) is skipped because processor.set_preset
++                # short-circuits via cmp_presets. Re-fire with force so the
++                # engine actually selects the patch. The soundfont/plugin is
++                # already loaded by set_bank_by_info during restore, so no
++                # reload is needed.
++                logging.info(f"Post-restore: re-firing set_preset for {proc.get_basepath()} -> {pi[2] if len(pi)>2 else pi}")
++                proc.set_preset(pi, force_set_engine=True)
++            except Exception as e:
++                logging.warning(f"Post-restore preset re-dispatch failed for {proc.get_basepath()}: {e}")
++
+         # Restore mute state
+         self.mute(mute, 0)
+ 

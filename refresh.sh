@@ -7,8 +7,18 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 echo "==> Refreshing kit at $HERE"
 
 cd /zynthian/zynthian-ui
-git diff HEAD -- zyngine/zynthian_engine_jalv.py > "$HERE/engine/zynthian_engine_jalv.patch"
-cp /zynthian/zynthian-ui/zyngine/zynthian_engine_jalv.py "$HERE/engine/zynthian_engine_jalv.full.py"
+# All patched zynthian-ui source files. Add new ones here as customizations grow.
+ENGINE_FILES=(
+    zyngine/zynthian_engine_jalv.py
+    zyngine/zynthian_engine.py
+    zyngine/zynthian_engine_fluidsynth.py
+    zyngine/zynthian_state_manager.py
+)
+for f in "${ENGINE_FILES[@]}"; do
+    base="$(basename "$f" .py)"
+    git diff HEAD -- "$f" > "$HERE/engine/${base}.patch"
+    cp "/zynthian/zynthian-ui/$f" "$HERE/engine/${base}.full.py"
+done
 
 cp /zynthian/config/jalv/presets_JE8086.json "$HERE/cache/"
 

@@ -8,18 +8,28 @@ set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
 echo "==> Restoring from $HERE"
 
-# 1. Engine patch
+# 1. Engine patches
 echo "==> Patching zynthian-ui engine"
 cd /zynthian/zynthian-ui
-if git apply --check "$HERE/engine/zynthian_engine_jalv.patch" 2>/dev/null; then
-    git apply "$HERE/engine/zynthian_engine_jalv.patch"
-    echo "    patch applied cleanly"
-else
-    echo "    !! git apply failed — upstream rewrote the file."
-    echo "    !! See RESTORE.md → 'Manual engine re-apply' section."
-    echo "    !! Reference full known-good copy: $HERE/engine/zynthian_engine_jalv.full.py"
-    exit 2
-fi
+ENGINE_PATCHES=(
+    zynthian_engine_jalv
+    zynthian_engine
+    zynthian_engine_fluidsynth
+    zynthian_state_manager
+)
+for base in "${ENGINE_PATCHES[@]}"; do
+    patch="$HERE/engine/${base}.patch"
+    [ -s "$patch" ] || continue  # skip empty patches
+    if git apply --check "$patch" 2>/dev/null; then
+        git apply "$patch"
+        echo "    $base patch applied cleanly"
+    else
+        echo "    !! git apply failed for $base — upstream rewrote the file."
+        echo "    !! See RESTORE.md → 'Manual engine re-apply' section."
+        echo "    !! Reference full known-good copy: $HERE/engine/${base}.full.py"
+        exit 2
+    fi
+done
 
 # 2. Preset cache
 echo "==> Restoring preset cache"

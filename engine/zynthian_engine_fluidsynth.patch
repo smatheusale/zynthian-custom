@@ -1,0 +1,15 @@
+diff --git a/zyngine/zynthian_engine_fluidsynth.py b/zyngine/zynthian_engine_fluidsynth.py
+index 49890ba1..44b463aa 100644
+--- a/zyngine/zynthian_engine_fluidsynth.py
++++ b/zyngine/zynthian_engine_fluidsynth.py
+@@ -109,6 +109,10 @@ class zynthian_engine_fluidsynth(zynthian_engine):
+         self.command = "fluidsynth -a jack -m jack -g 1 {}".format(self.fs_options)
+         self.command_prompt = "\n> "
+ 
++        # SF2 load + program select happens in set_preset; snapshot-restore must
++        # re-fire set_preset after JACK is wired.
++        self.needs_set_preset_after_restore = True
++
+         self.start()
+         self.reset()
+ 

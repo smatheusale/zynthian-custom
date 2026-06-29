@@ -1,0 +1,16 @@
+diff --git a/zyngine/zynthian_engine.py b/zyngine/zynthian_engine.py
+index 64bffa80..7b532546 100644
+--- a/zyngine/zynthian_engine.py
++++ b/zyngine/zynthian_engine.py
+@@ -193,6 +193,11 @@ class zynthian_engine(zynthian_basic_engine):
+         self.show_favs_bank = True
+         self.monitors_dict = {}
+ 
++        # Engines that load patches via set_preset (MIDI dispatch or file load)
++        # must opt in so snapshot restore re-fires set_preset after JACK ports
++        # are wired. See zynthian_state_manager.load_snapshot.
++        self.needs_set_preset_after_restore = False
++
+     def reset(self):
+         pass
+         # TODO: OSC, IPC, ...
