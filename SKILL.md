@@ -26,7 +26,7 @@ This skill consolidates everything established across prior sessions about this 
 | Situation | What to do |
 |---|---|
 | Zynthian package upgrade reverted our engine patch | `cd /zynthian/zynthian-my-data/zynthian-custom && ./restore.sh && ./verify.sh` |
-| `git apply` fails (upstream rewrote the engine) | Apply the four edits manually using the code blocks in `RESTORE.md` → "Manual engine re-apply". The four target symbols: `get_preset_list`, `set_preset`, `_dispatch_firmware_midi`, `add_processor`/`_load_default_preset`, plus an early-return on `MIDI Out:` lines in `proc_poll_parse_line`. |
+| `git apply` fails (upstream rewrote the engine) | The kit now patches **four** `zynthian-ui` files (`engine/*.patch`, applied by `restore.sh`): `zynthian_engine_jalv.py` (symbols `get_preset_list`, `set_preset`, `_dispatch_firmware_midi`, `add_processor`/`_load_default_preset`, + `MIDI Out:` early-return in `proc_poll_parse_line`), `zynthian_engine.py` (`needs_set_preset_after_restore` base flag), `zynthian_engine_fluidsynth.py` (sets that flag), `zynthian_state_manager.py` (`load_snapshot` post-restore `set_preset` re-fire). Re-apply each manually from the matching `engine/*.full.py` if the patch won't apply. |
 | Fresh format / new SD card | First install the JE8086 LV2 plugin (vendor installer), then run `restore.sh`. Off-device backup of `/zynthian/zynthian-my-data/zynthian-custom/` is the user's responsibility — ~600 KB, `rsync`-friendly. |
 | After making more local edits | `./refresh.sh` updates the patch, copies the cache and bundles back into the kit, and rewrites `baseline.txt`. |
 | Confirming everything's wired up | `./verify.sh` |
@@ -65,11 +65,12 @@ These plugins emulate real hardware DSPs (Roland JD-800/JP-8000, etc.). They hon
 **Workaround in `/zynthian/zynthian-ui/zyngine/zynthian_engine_jalv.py`:**
 
 - `get_preset_list` reads optional `info['midi_bank_select']` (`[msb, lsb, pc]`) or `info['midi_pc']` (int) from the cache and surfaces it as `preset[1]`.
-- `set_preset` sends the LV2 preset URI to jalv (harmless), then dispatches MIDI on the processor's MIDI channel:
-  - `[msb, lsb, pc]` → CC120 + CC123 (All Sound Off / All Notes Off), then `zynmidi.set_midi_preset(chan, msb, lsb, pc)`.
-  - `int` → CC120 + CC123, then `zynmidi.set_midi_prg(chan, prg)`.
+- `set_preset` sends the LV2 preset URI to jalv (harmless), then `_dispatch_firmware_midi(processor, chan, midi_info)` sends MIDI **via the chain's own zmop output** (NOT a global channel send — fixed 2026-06-29, see #1705 below):
+  - `[msb, lsb, pc]` → `zmop_send_ccontrol_change(zmop, chan, 120/123, 0)` (All Sound/Notes Off), then `zmop_send_ccontrol_change(zmop, chan, 0, msb)` + `(…, 32, lsb)` + `zmop_send_program_change(zmop, chan, pc)`.
+  - `int` → All Sound/Notes Off, then `zmop_send_program_change(zmop, chan, prg)`.
   - Else → no MIDI; standard LV2 state-restore path only.
-  - Re-dispatches after 1.5s `Timer` so snapshot restore lands AFTER zynautoconnect wires MIDI and jalv is up.
+  - `zmop = processor.chain.zmop_index`; `chan = midi_chan_engine` (0 for dsp56300). **Never use `ui_send_*`/`zynmidi.set_midi_*` here** — those broadcast on the MIDI channel and hijack any layer-mate sharing it (that bug made a layered FluidSynth play GM Violin/strings; see #1705).
+  - Snapshot restore re-fires this: `zynthian_state_manager.load_snapshot` re-calls `set_preset(force_set_engine=True)` after `request_midi_connect(True)` for engines flagged `needs_set_preset_after_restore` (replaces the old 1.5s `Timer` hack, which is gone).
 - `set_preset` returns `True` so the GUI follows the standard Zynthian flow (purge bank history, jump to `chain_control`). Returning `None` to keep "audition" mode broke screen-history navigation and was reverted 2026-06-08.
 - Empty-URL `(none)` blank entry hits the existing `if not preset[0]: return` early-return → no MIDI sent, GUI stays on preset list. To add it: prepend `{"label": "(none)", "url": ""}` to the first bank's `presets` list in `presets_<Plugin>.json`. No engine change needed.
 - `proc_poll_parse_line` early-returns on `MIDI Out:` lines because plugins like JE8086 spam one stdout line per outbound MIDI byte.
@@ -143,6 +144,20 @@ If the user reports a missing Chain Options entry after an update, check this co
 **Upstream issue filed:** https://github.com/zynthian/zynthian-issue-tracking/issues/1689 — GitHub will email the user on any status change.
 
 **Architectural fix (for upstream):** CUIA worker should marshal Tk calls back to the main thread via `widget.after_idle(...)` instead of calling `build_view` / `PhotoImage` directly. Same applies to Status, zynpot, and Multitouch threads.
+
+## Known bug FIXED: layered-snapshot preset hijack (#1705)
+
+2026-06-29. A 4-layer snapshot (JE8086 + LinuxSampler + Pianoteq + FluidSynth, all on MIDI ch 1) restored with the **FluidSynth layer playing GM Violin/strings** instead of its "FM Piano" SF2, while the UI showed the correct name. Manual re-pick fixed it until the next snapshot load.
+
+**Cause (two parts):**
+1. JE8086 selects "Tiny bells" via MIDI Bank Select `[0,1]` + PC 40, which was sent **on the MIDI channel** (global) → every chain on ch 1 received it. `FM Piano.sf2` has no bank 1 → FluidSynth GM-substituted → program 40 = Violin. Confirmed via fluidsynth `channels -verbose`: `Instrument not found [bank=1 prog=40], substituted` + `chan 0 ... preset 40, Violin`.
+2. Snapshot restore never re-invoked `set_preset` (cmp_presets short-circuit), so firmware-emulator + FluidSynth chains started on defaults.
+
+**Fix (in kit, 4 patched files):** route the preset Bank Select + PC through the chain's own `zmop_index` (`zmop_send_program_change`/`zmop_send_ccontrol_change`) so it can't leak to layer-mates; and re-fire `set_preset(force_set_engine=True)` after restore for engines flagged `needs_set_preset_after_restore`. See the firmware-emulator section above.
+
+**Dead end (don't repeat):** unloading + reloading the FluidSynth soundfont in the post-restore loop "worked" only because verbose logging added delay — a pexpect race, not a real fix. The font is already loaded by `set_bank_by_info` during restore; no reload is needed.
+
+**Upstream issue filed:** https://github.com/zynthian/zynthian-issue-tracking/issues/1705 — found while running the custom JE8086 integration (`JE8086.md`). GitHub emails the user on status changes.
 
 ## Tooling installed on this Zynthian
 
